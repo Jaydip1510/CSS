@@ -1,0 +1,15 @@
+#fontprp{
+     font-family: verdana;
+     font-size: xx-large;
+     font-weight: lighter;
+     font-variant: small-caps;
+     /*line-height: 70px;*/
+    /* letter-spacing: 7px;*/
+     /*word-spacing: 20px;*/
+     text-indent: 70px;
+}
+.txtdec{
+      text-decoration: underline deshed;
+      text-transform: capitalize;
+      text-align: left;
+}
