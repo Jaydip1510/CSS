@@ -1,0 +1,45 @@
+.container{
+      height: 91.5vh;
+      width: 654px;
+      border: 5px solid gold;
+      margin: auto;
+
+}
+.black{
+    height: 80px;
+    width:  80px;
+    border: 1px solid black;
+    background-color: aqua;
+    float: left;
+}
+.white{
+    height: 80px;
+    width:  80px;
+    border: 1px solid black;
+    background-color: forestgreen;
+    float: left;
+}
+.fas{
+    color: black;
+    font-size: 70px;
+    padding-left:15px ;
+}
+.fa-chess-rook{
+    color: black;
+    font-size: 70px;
+    padding-left:15;
+
+}
+.fa-chess{
+    color: black;
+    font-size: 70px;
+    padding-left:15;
+}
+.fa-chess-queen{
+    color: black;
+    font-size: 70px;
+    padding-left:10;
+}
+.d1{
+    color: deeppink;
+}
