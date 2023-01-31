@@ -1,0 +1,17 @@
+.txt1{
+     height: 300px;
+     width: 500px;
+     border: 2px solid black;
+     padding: 5px;
+     margin: 10px;
+     border-radius: 15px;
+     display:inline-block;
+     background-color: aqua;
+     margin:auto;
+}
+.disp{
+    width: 400px;
+    color: blue;
+    border: 2px solid yellow;
+    display: inline-block;
+}
