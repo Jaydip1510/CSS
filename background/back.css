@@ -1,0 +1,26 @@
+.row{
+    height: 500px;
+    width: 100%;
+    border: 7px dashed black;
+    text-align: center;
+    background-color: chartreuse;
+    background-image: url('rose.jpg');
+    color: white;
+    margin-bottom: 10px;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: 100%;
+    background-clip: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+    
+
+}
+.padding-box{
+    background-clip: border-box;
+
+}
+.contain-box{
+    background-size: contain-box;
+
+}
