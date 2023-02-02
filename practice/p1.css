@@ -1,0 +1,50 @@
+.container{
+    width: 656px;
+    height: 67.5vh;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin:auto;
+}
+.black{
+      height: 80px;
+      width:  80px;
+      border: 1px solid black;
+      background-color: greenyellow;
+      float: left;
+}
+.white{
+       height: 80px;
+       width: 80px;
+       border: 1px solid black;
+       background-color: purple;
+       float: left;
+}
+.fa-regular{
+    color: blue;
+    font-size: 70px;
+    padding-left: 15px;
+}
+.fa-solid{
+    color:blue;
+    font-size: 70px;
+    padding-left:15px ;
+}
+.d1{
+     color: blue;
+     font-size: 70px;
+     padding-left: 15px;
+}
+.fa-chess-bishop{
+    color: blue;
+    font-size: 70px;
+    padding-left: 15px;
+}
+.fa-regular{
+    color: blue;
+    font-size: 70px;
+    padding-left: 15px;
+}
+.d1{
+    color:deeppink;
+    
+}
