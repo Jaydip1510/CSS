@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+}
+.box{
+    height:200px;
+    width:400px;
+    background-color: greenyellow;
+    padding: 45px;
+    border:2px solid rgb(131, 15, 15);
+    margin-left:750px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    
+}
+div#txt1{
+     background-color: aqua;
+     color: fuchsia;
+}
+div#txt2 .clr{
+    color: deeppink;
+}
+#txt1,#txt2{
+    font-size: 15;
+    background-color: chartreuse;
+}

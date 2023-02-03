@@ -1,0 +1,29 @@
+.d1{
+    height: 500px;
+    width: 400px;
+    border: 5px solid gold;
+    background-image: url("sunset.jpg");
+    padding:20px;
+    margin: auto;
+    margin-bottom: 20px;
+  
+  
+}
+.d2{
+    height: 300px;
+    width: 400px;
+    border: 5px dotted greenyellow;
+    margin: auto;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+    background-clip: padding-box;
+    margin-bottom: 15px;
+ 
+}
+.d3{
+   height: 400px;
+   width: 60%;
+   border: 5px solid goldenrod;
+   background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+   margin: auto;
+}
