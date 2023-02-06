@@ -1,0 +1,15 @@
+.c1{
+    height: 500px;
+    width: 50%;
+    font-family: Sassy Frass;
+    margin: auto;
+    border-left: 5px solid green;
+    border-top: 5px dashed yellow;
+    border-right: 5px dotted blue;
+    border-bottom: 5px double red;
+    background-color: cyan;
+    color: deeppink;
+    font-size: 50px;
+    background-clip: padding-box;
+
+}
