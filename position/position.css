@@ -1,0 +1,54 @@
+.box{
+  height: 100px;
+  width: 100px;
+  border: 2px solid greenyellow;
+  float: left;
+  margin: 10px;
+  text-align: center;  
+  padding: 25px;
+  box-sizing: border-box;
+}
+.pos1{
+    position: absolute;
+}
+.pos2{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.pos4{
+    position: relative;
+    bottom: 2px;
+    left: 98px;
+}
+
+.pos5{
+    position: relative;
+    top: 20px;
+    left: 50px;
+   
+}
+.c1{
+    background-color: orange;
+    background-image: url("home.jpeg");
+}
+.c2{
+    background-color: red;
+    background-image: url('colorful.jpg');
+}
+.c3{
+    background-color: green;
+    background-image: url('fall.jpg');
+}
+.c4{
+    background-color: blue;
+    background-image: url('nature.jpg');
+}
+.c5{
+    background-color: darkcyan;
+    background-image: url('photo.jpg');
+}
+.c6{
+    background-color: yellow;
+    background-image: url('sunset.jpg');
+}
