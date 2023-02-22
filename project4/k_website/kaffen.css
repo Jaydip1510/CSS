@@ -1,0 +1,120 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.d1{
+    font-size: 14px;
+    color:#B99272;
+    background-color: #090c0F;
+    padding: 15px 25px;
+    font-family:'Roboto';
+}
+.d2{
+    color: white;
+}
+.fa-facebook-f{
+    color:white;
+    margin-left: 590px;
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+}
+.fa-twitter{
+    color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+
+}
+.fa-instagram{
+    color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+}
+.fa-youtube{
+    color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+}
+.fa-map-marker-alt{
+    color: #B99272;
+    margin-left: 575px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+.d3{
+    color: white;
+}
+.d4{
+   background-color: rgb(21, 20, 20);
+   height: 70px;
+
+}
+.d5{
+    color: #B99272;
+    height: 40px;
+    width: 100px;
+    padding-left: 25px;
+}
+.d6{
+    color: white;
+    font-family: 'Roboto';
+    margin-left: 455px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+}
+.d6:hover{
+    color:#B99272;
+}
+.d7:hover{ 
+    color:#B99272;
+}
+
+.d7{
+    color: white;
+    font-family: 'Roboto';
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.fa-angle-down{
+    color: white;
+    font-size: 15px;
+}
+.fa-angle-down:hover{
+    color:#B99272;
+}
+.btn1{
+    height: 50px;
+    width: 160px;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    float: right;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto';
+    background-color: #B99272;
+    color: white;
+    margin-right: 30px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.btn1:hover{
+    background-color:white;
+    color: #B99272;
+}
+
+
