@@ -1,0 +1,43 @@
+.bgyellow{
+        height: 250px;
+        width: 150px;
+        background-color: yellow;
+        position: relative;
+        z-index: 4;
+}
+.bggreen{
+         height: 250px;
+         width: 150px;
+         background-color: green;
+         position: absolute;
+         top: 35px;
+         left: 35px;
+         z-index: 5;
+}
+.bgblue{
+         height: 250px;
+         width: 150px;
+         background-color: blue;
+         position: absolute;
+         top: 62px;
+         left: 64px;
+         z-index: 3;
+}
+.bgred{
+        height: 250px;
+        width: 150px;
+        background-color: red;
+        position: absolute;
+        top: 90px;
+        left: 90px;
+        z-index: 1;
+}
+.bgpink{
+        height: 250px;
+        width: 150px;
+        background-color: pink;
+        position: absolute;
+        top: 117px;
+        left: 117px;
+        z-index: 2;
+}
