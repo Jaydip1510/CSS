@@ -1,0 +1,40 @@
+.txtshadow{
+    color: red;
+    text-shadow: 5px 5px 3px green;
+    font-size: 25px;
+}
+.box{
+    height: 200px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: slateblue;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px gold,15px 15px aqua;
+}
+.box1:hover{
+        height: 200px;
+        width: 250px;
+        background-color: blue;
+        transform: rotate(70deg);
+       /* transform-origin: right bottom;*/
+        transform-style: preserve-3d;
+        transition: all 4s ease;
+}
+.box1{
+      height: 100px;
+      width: 150px;
+      border: 2px solid black;
+      border-radius: 5px;
+      background-color: red;
+      margin-top: 60px;
+      margin-bottom: 80px;
+      transform: translate(160px);
+      perspective: 1000px;
+      margin-left: 150px;
+}
+.box1:before{
+     content: '';
+     background-color: violet;
+ 
+}
