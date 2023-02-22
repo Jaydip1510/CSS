@@ -1,0 +1,50 @@
+.container{
+    width: 672px;
+    height: 671px;
+    border: 5px solid deepskyblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+
+
+}
+.black{
+       height: 80px;
+       width: 80px;
+       border: 2px solid black;
+       background-color: orangered;
+      
+}
+.white{
+       height: 80px;
+       width: 80px;
+       border: 2px solid black;
+       background-color: green;
+   
+}
+.c1{
+    color: darkmagenta;
+    font-size: 70px;
+    padding-left:15px ;
+}
+.c1:hover{
+      transform: rotate(360deg);
+      transition: all 0.5s;
+      color: darkcyan;
+}
+
+
+.down{
+     color: darkblue;
+     font-size: 70px;
+     padding-left:15px ;
+}
+.down:hover{
+     transform: rotate(360deg);
+     transition: all 2s;
+     color: deeppink;
+}
+.fa-chess-king{
+        padding-left: 10px;
+}
