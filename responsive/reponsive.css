@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.box{
+      float: left;
+      height: 200px;
+      /* width: 300px; */
+      border: 2px solid black;
+      background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+     
+}
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    margin: auto;
+}

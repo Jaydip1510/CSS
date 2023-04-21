@@ -1,0 +1,58 @@
+.s1{
+    height: 500px;
+    width: 80%;
+    border: 5px solid gold;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.d1{
+    height: 200px;
+    width: 90px;
+    border: 5px dashed seagreen;
+    padding-left: 80px;
+    background-image: url("download.jpg");
+    margin-right: 80px;
+    margin-top: 120px;
+    float: left;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    margin-left: 61px;
+    margin-bottom: 20px;
+    color: darkblue;
+    font-size: 15px;
+}
+.b1{
+    border: 5px solid purple;
+    font-family: Pacifico;
+    font-size: 15px;
+}
+.b2{
+    border: 5px dotted rgb(20, 25, 194);
+    font-size: 16px;
+    font-family: Indie Flower;
+    background-clip: padding-box;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(180,241,232,0.8464635854341737) 35%, rgba(0,255,33,1) 100%);
+
+}
+.b3{
+    border: 5px dashed greenyellow;
+    font-size: 20.5px;
+    font-family: Amatic SC; 
+    background-clip: padding-box;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(229,180,241,1) 12%, rgba(0,255,33,1) 100%);
+
+}
+
+.s2{
+    height: 500px;
+    width: 80%;
+    border: 5px solid navy;
+    background-color: greenyellow;
+    margin: auto;
+    text-align: center;
+
+}   
+
+

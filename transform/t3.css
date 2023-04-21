@@ -1,0 +1,30 @@
+.d1{
+    height: 500px;
+    width: 500px;
+    border: 2px solid dodgerblue;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url('wp.jpg');
+    box-sizing: content-box;
+    margin: auto;
+    margin-bottom: 110px;
+}
+.d1:hover{
+    /*transform: rotate(360deg);*/
+    transition: all 10s;
+    box-shadow: 5px 5px 3px deeppink, 10px 10px 15px navy;
+	transform: scale(1.3);
+}
+.d2{
+    height: 500px;
+    width: 500px;
+    border: 2px solid darkblue;
+    background-color: turquoise;
+    margin: auto;
+}
+.d2:hover{
+     box-shadow: 5px 5px 3px red;
+     /* transform: rotate(360deg); */
+     transition: all 5s;
+     transform: scale(1.2);
+}

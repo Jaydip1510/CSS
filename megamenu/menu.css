@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+.nav-menu{
+    background-color: darkblue;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+     position: relative;
+     z-index: 1;
+}
+.nav-link{
+      color: chocolate;
+      text-decoration: none;
+      font-size: 25px;
+      padding: 15px;
+}
+.d-block{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+.subhome{
+    height: 100px;
+    width: 105px;
+    border: 1px solid black;
+    background-color: black;
+    position:absolute;
+    top: 75px;
+    display: none;
+    padding: 10px;    
+}
+.subhome a{
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+div.menu div:nth-child(1):hover .subhome{
+    display: block;
+    
+} 
+.submenu{
+     height: 100px;
+     width: 150px;
+     border: 1px solid black;
+     background-color: aquamarine;
+     position:absolute;
+     top: 75px;
+     right: 320px;
+     display: none;
+}
+div.menu div:nth-child(2):hover .submenu{
+    display: block;
+    color: red;
+}
+.submenu2{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    display: none;
+}
+
+.d-none{
+    display: none;
+}
+
+.ab1:hover .submenu2{
+    display: block;
+}
+.submenu3{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    position:absolute;
+    top: 75px;
+    right: 200px;
+    display: none;
+    padding: 10px;
+}
+div.menu div:nth-child(3):hover .submenu3{
+    display: block;
+    color: red;
+}
+
+.submenu4{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    position:absolute;
+    top: 75px;
+    display: none;
+    padding: 10px;
+    
+}
+div.menu div:nth-child(4):hover .submenu4{
+    display: block;
+    color: red;
+} 

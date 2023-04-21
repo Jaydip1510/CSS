@@ -1,0 +1,38 @@
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url('n1.jpg');
+    margin-left: 760px;
+    margin-top: 180px;
+    position: relative;
+}
+.box1:hover{
+    transform: rotate(360deg);
+    transition: all 5s;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid darkcyan;
+    background-color: deeppink;
+    margin-left: 540px;
+    margin-top:   -203px;
+    position: relative;
+   
+}  
+.box2:hover{
+    box-shadow: 5px 5px 3px darkblue;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid aqua;
+    margin-left: 642px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(147,252,70,0.9949229691876751) 100%);
+    position: absolute;
+    margin-top: -60px;
+}
+.box3:hover{
+    transform: scale(1.2);
+}

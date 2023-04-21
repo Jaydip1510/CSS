@@ -1,40 +1,58 @@
-.txtshadow{
-    color: red;
-    text-shadow: 5px 5px 3px green;
-    font-size: 25px;
-}
 .box{
     height: 200px;
     width: 150px;
     border: 2px solid black;
-    border-radius: 5px;
-    background-color: slateblue;
-    margin-top: 10px;
-    box-shadow: 5px 5px 10px gold,15px 15px aqua;
+    border-radius: 10px;
+    background-color: navy;
+    transform: rotate(190deg);
+    margin-top: 20px;
+    margin-left: 50px;
+    transition: all 5s;
+   /* box-shadow: 50px 50px red ;*/
+   /* margin: auto;*/
+}
+.box:hover{
+      height: 400px;
+      width: 300px;
+      border: 5px solid black;
+      border-radius: 10px;
+      background-color: aqua;
+      transform: rotate(190px);
+     /* transform-origin:  bottom;*/
+      /*transform-style: preserve-3d;*/
+      transition: all 4s ease;*/
+}
+
+.box1{
+       height:100px;
+       width: 100px;
+       border: 2px solid black;
+       border-radius: 5px;
+       background-color: yellow;
+       margin-left: 10px;
+
 }
 .box1:hover{
-        height: 200px;
-        width: 250px;
-        background-color: blue;
-        transform: rotate(70deg);
-       /* transform-origin: right bottom;*/
-        transform-style: preserve-3d;
-        transition: all 4s ease;
+      transform: rotate(360deg);
+      transition: all 1s;
+      background: rgb(63,94,251);
+      background: linear-gradient(163deg, rgba(63,94,251,1) 0%, rgba(252,70,248,0.9949229691876751) 100%);
 }
-.box1{
-      height: 100px;
+.box2{
+      height: 200px;
       width: 150px;
-      border: 2px solid black;
-      border-radius: 5px;
-      background-color: red;
-      margin-top: 60px;
-      margin-bottom: 80px;
-      transform: translate(160px);
-      perspective: 1000px;
-      margin-left: 150px;
+      border: 5px solid fuchsia;
+      border-radius: 10px;
+      background-color: blue;
+      margin: auto;
 }
-.box1:before{
-     content: '';
-     background-color: violet;
- 
+.box2:hover{
+      height: 100px;
+      width: 200px;
+      border: 5px solid black;
+      border-radius: 5px;
+      transform: rotate(80deg);
+      transform: translate(20deg,40deg);
+      /*transition-delay: 1s;*/
+      transition: all 5s;
 }

@@ -1,0 +1,100 @@
+body{
+       background-image: url('mountain.jpg');
+       background-size: cover;
+}
+fieldset{
+         height: 500px;
+         width: 450px;
+         border-radius: 20px;
+         text-align: center;
+         margin: auto;
+         margin-top: 150px;
+         background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,230,252,0.9949229691876751) 55%);
+}
+fieldset:hover{
+        box-shadow: 5px 5px 10px orangered,10px 10px 15px darkturquoise;
+}
+img{
+     height: 100px;
+     width: 100px;
+     border-radius: 100%;
+}
+img:hover{
+      transform: rotate(360deg);
+      transition: all 1s;
+    
+}
+.leb1 input{
+        height: 40px;
+        width: 280px;
+        border: 1px solid black;
+        text-align: center;
+        margin-top: 50px;
+        border-radius: 15px;
+        color: aqua;
+        font-weight: bold;
+        font-size: 15px;
+        background-color: rgb(32, 243, 13);
+
+}
+.leb1 input:hover{
+         box-shadow: 10px 15px 20px mediumblue;
+}
+.leb1{
+    position: relative;
+}
+.leb2 input{
+       height: 40px;
+       width: 280px;
+       border: 1px solid black;
+       text-align: center;
+       border-radius: 15px;
+       margin-top: 30px;
+       background-color: orangered;
+       font-size: 15px;
+       font-weight: bold;       
+}
+.leb2 input:hover{
+         box-shadow: 10px 10px 20px rgb(0, 182, 39);
+}
+.leb2{
+      position: relative;
+}
+
+.leb3{
+    padding-right: 205px;
+    padding-top: 30px;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.button input{
+          height: 40px;
+          width: 280px;
+          border: 1px solid black;
+          text-align: center;
+          border-radius: 15px;
+          margin-top: 20px;
+          font-size: 17px;
+          font-weight: bold;
+}
+.button input:hover{
+         box-shadow: 5px 5px 10px lime;
+         background-color: darkblue;
+}
+.fa-regular{
+        font-size: 20px;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 20px;
+}
+.fa-solid{
+        font-size: 20px;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 40px;
+}
+.fa-eye{
+        position: absolute;
+        right: 95px;
+}

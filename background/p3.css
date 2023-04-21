@@ -1,0 +1,15 @@
+.d1{
+    height: 500px;
+    width: 80%;
+    border: 5px solid lime;
+    margin: auto;
+    margin-top: 10px;
+    background-color: deepskyblue;
+    font-size: 50px;
+    text-align: center;
+    color: navy;
+    background-image: url("naturel.jpg");
+    background-size: 100%;
+    background-clip: border-box;
+    background-attachment: fixed;
+}

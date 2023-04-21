@@ -1,0 +1,58 @@
+.row{
+    height: 200px;
+    width: 100%;
+    border: 7px dashed black;
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    margin-bottom: 10px;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100%;
+    background-clip: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left, red,orange,green,rgb(26, 148, 146)); 
+   /*background-image: linear-gradient(to right,red,blue,green,yellow,pink,);*/
+    background-clip: padding-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.padding-box{
+        background-clip: padding-box;
+}
+.content-box{
+       background-clip: content-box;
+}
+.row1{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-image: url("son.jpg");
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    margin-bottom: 20px;
+}
+.row2{
+     height:500px;
+     width: 500px;
+     margin: auto;
+     background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+}
+.row3{
+     height: 600px;
+     width: 60%;
+     margin: auto;
+     background-color: blue;
+     clip-path: polygon(51% 0%, 20% 51%, 78% 52%)
+}
+.row4{
+      height: 500px;
+      width: 700px; 
+      border: 5px dashed purple;
+      background-image: url("river.jpg");
+      clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
+
+      margin: auto;
+}

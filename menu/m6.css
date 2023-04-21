@@ -1,0 +1,46 @@
+body{
+      margin: 0;
+      padding: 0;
+}
+.container{
+            height: 100px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+}
+.menu{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       position: relative;
+       z-index: 1;
+       align-items: center;
+       justify-content: center;
+}
+.list{
+      align-items: center;
+      text-align: center;
+      display: flex;
+      list-style: none;
+      padding: 10px 20px;
+}
+.list ul{
+      display: none;
+      list-style: none;
+}
+.list li:hover ul{
+    display: block;
+}
+.menus{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 10px 20px;
+}
+.submenu{
+          width: 100px;
+          background-color: green;
+          position: absolute;
+          top: 65px;
+}

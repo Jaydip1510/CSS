@@ -1,29 +1,33 @@
 .d1{
-    height: 500px;
-    width: 400px;
-    border: 5px solid gold;
-    background-image: url("sunset.jpg");
-    padding:20px;
+    height: 400px;
+    width: 500px;
+    border: 5px solid greenyellow;
+    background-image: url("image.jpg");
     margin: auto;
+    margin-right: 950px;
+    background-repeat: repeat;
     margin-bottom: 20px;
-  
-  
+    
 }
 .d2{
-    height: 300px;
-    width: 400px;
-    border: 5px dotted greenyellow;
+    height: 400px;
+    width: 500px;
+    border: 5px dotted springgreen;
+    background-color: darkblue;
     margin: auto;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
-    background-clip: padding-box;
-    margin-bottom: 15px;
- 
+    margin-bottom: 20px;
+    margin-left: 950px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
 }
 .d3{
-   height: 400px;
-   width: 60%;
-   border: 5px solid goldenrod;
-   background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
-   margin: auto;
+
+    height: 500px;
+    width: 400px;
+    border: 2px dashed lime;
+    margin: auto;
+    margin-right: 950px;
+    /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,120,0.8464635854341737) 35%, rgba(0,255,33,1) 100%);*/
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(280,9,345,0.8464635854341737) 35%, rgba(0,423,33,1) 100%)
+
 }

@@ -1,0 +1,116 @@
+body{
+     margin: 0;
+     padding: 0;
+}
+.container{
+      text-align: center;
+      width: 100%;
+}
+.logo{
+       height: 50px;
+       width: 150px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+.nav-menu{
+         height: 100px;
+         width: 100%;
+         background-color: green;
+         display: flex;
+         justify-content: space-around;
+}
+.menu{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+}
+.list{
+       align-items: center;
+       text-align: center;
+       display: flex;
+       list-style: none;
+       padding: 10px 20px;
+}
+.list ul{
+       display: none;
+       list-style: none;
+}
+.list li:hover ul{
+     display: block;
+}
+.menus{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    padding: 10px 20px;
+   
+}
+.submenu{
+    
+    top: 65px;
+    position: absolute;
+    width: 100px;
+    background-color: black;
+    display: none;
+    text-align: left;  
+}
+.submenu a{
+  
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .submenu a:hover{
+      color: rgb(126, 100, 66);
+  }
+  .submenu1{
+    top: 50px;
+    position: absolute;
+    width: 100px;
+    background-color: black;
+    display: none;
+    text-align: center
+  }
+  .submenu1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+
+  .submenu2{
+    position: absolute;
+    top: 50px;
+    width: 100px;
+    background-color: black;
+    display: none;
+    text-align: left;
+  }
+  .submenu2 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px ;
+  }
+  .submenu3{
+    position: absolute;
+    top: 50px;
+    width: 100px;
+    background-color: black;
+    display: none;
+    text-align: left;
+  }
+  .submenu3 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px ;
+  }

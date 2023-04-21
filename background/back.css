@@ -1,52 +1,51 @@
 .row{
-    height: 200px;
+    height: 500px;
     width: 100%;
     border: 7px dashed black;
     text-align: center;
-    background-color: aqua;
-    /*background-image: url('down.jpg');*/
+    background-color: chartreuse;
+    background-image: url('rose.jpg');
     color: white;
     margin-bottom: 10px;
-    background-repeat: repeat;
     background-position: center;
+    background-repeat: repeat-x;
     background-size: 100%;
-    background-clip: border-box;
+    background-clip: padding-box;
     padding: 10px;
     box-sizing: border-box;
-    background-image: linear-gradient(to left, red,orange,green,rgb(26, 148, 146)); 
-    background-clip: padding-box;
+    background-attachment: fixed;
     
-
 
 }
 .padding-box{
-        background-clip: padding-box;
+    background-clip: padding-box;
+
 }
-.content-box{
-       background-clip: content-box;
+.contain-box{
+    background-size: contain-box;
+
 }
 .row1{
     height: 500px;
     width: 500px;
-    margin: auto;
-    background-image: url("water1.jpg");
-    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
-    margin-bottom: 20px;
-}
-.row2{
-     height:500px;
-     width: 500px;
-     margin: auto;
-     background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
-     margin-bottom: 15px;
-}
-.d2{
-    text-align: center;
-}
-.row3{
-    height: 600px;
-    width: 500px;
+    border:5px solid greenyellow;
+    background-image: url("naturel.jpg");
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     margin:auto;
-    background-color: aqua;
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.p1{
+    height: 500px;
+    width: 50%;
+    border:5px solid blue;
+    margin: auto;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,75,1) 35%, rgba(255,0,232,1) 100%);
+}
+.p2{
+    height: 500px;
+    width: 50%;
+    border:5px solid blue;
+    margin: auto;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,75,1) 35%, rgba(0,255,33,1) 100%);
 }

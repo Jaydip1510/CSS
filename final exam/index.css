@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-menu {
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 10px;
+}
+.nav-link:hover{
+     color: yellow;
+}
+.box1{
+       height: 40px;
+       width: 100px;
+       border-radius: 10px;
+       background-color: green;
+       color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-family: Roboto;      
+}
+.s1{
+       height: 550px;
+       width: 100%;
+       border: 1px solid black;
+       background-image: url('banner1.jpg');
+       background-size: cover;
+}
+.p1{
+       font-size: 50px;
+       font-weight: bold;
+       color: white;
+       text-align: center;
+       margin-top: 30px;
+       font-family: Roboto;
+}
+.p2{
+       font-size: 40px;
+       color: yellow;
+       font-weight: bold;
+       font-family: Roboto;
+       margin-top: 5px;
+}
+.p3{
+       font-size: 30px;
+       color: white;
+       font-weight: bold;
+       font-family: Roboto;       
+}
+.t1{
+       height: 50px;
+       width: 600px;
+       border-radius: 10px;
+       background-color: white;
+       color: black;
+       font-size: 15px;
+       text-align: center;
+       display: flex;
+       align-items: center;
+       margin: auto;            
+}
+.p4{
+      font-size: 28px;
+      color: white;
+      font-weight: bold;
+      font-family: Roboto;
+}
+.box2{
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+}
+.box2:hover{
+        background-color: white;
+        color: black;
+}
+.s2{
+       height: 400px;
+       width: 100%;
+       background-color: white;
+}
+.p5{
+      font-size: 25px;
+      font-weight: bold;
+      color: black;
+      margin-left: 100px;
+      font-family: Roboto;
+}
+.b1{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-around;
+}
+.imag1{
+         height: 250px;
+         width: 500px;
+}
+.imag2{
+         height: 250px;
+         width: 200px;
+}
+.s3{
+      height: 350px;
+      width: 100%;
+      background-color: whitesmoke;
+
+}
+.p6{
+       font-size: 23px;
+       font-weight: bold;
+       color: black;
+       font-family: Roboto;
+       margin-left: 150px;
+
+}
+.b2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+       
+}
+.i1{
+        height: 200px;
+        width: 200px;
+        padding: 0 10px;
+        margin: auto;
+}
+.n1{
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        font-family: Roboto;
+        display: inline-block;   
+}
+.name{ 
+        margin-left: 75px;          
+}
+.name1{
+         margin-left: 180px;
+}
+.name2{
+        margin-left: 190px;
+}
+.name3{
+        margin-left: 195px;
+}
+.name4{
+        margin-left: 190px;
+}
+.name5{
+        margin-left: 175px;
+}
+.s4{
+       height: 500px;
+       width: 100%;
+       background-color: white;
+}
+.p7{
+       font-size: 20px;
+       color: black;
+       font-family: bold;
+       margin-left: 100px;
+}
+.i2{
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       justify-content: space-evenly;
+}
+.p{
+       height: 300px;
+       width: 300px;
+}
+.p:hover{
+       box-shadow:  5px 5px 10px green,10px 10px 15px orangered;
+}
+.n2{
+    height: 70px;
+    width: 300px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.name6{
+        
+        margin-left: 55px;
+}
+.n6{
+       color: rgb(130, 123, 123); 
+       font-size: 17px;
+       font-family: Roboto;     
+}
+.name7{
+        margin-left: 50px;        
+}
+.name8{
+        margin-left: 50px;
+}
+.name9{
+       margin-left: 50px;
+}
+.s5{
+      height: 450px;
+      width: 100%;
+      background-color: whitesmoke;
+}
+.p8{
+      font-size: 25px;
+      font-weight: bold;
+      color: black;
+      font-family: Roboto;
+      margin-left: 100px;
+}
+.pizz{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-evenly;
+}

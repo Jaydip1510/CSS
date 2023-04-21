@@ -1,0 +1,33 @@
+body{
+      margin: 0;
+      padding: 0;
+}
+.s1{
+      height: 900px;
+      width: 100%;
+      background-image: url('backgrund.webp');
+      background-size: cover;
+}
+.p1{
+     height: 350px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     text-shadow: 10px 10px 15px aquamarine;
+     font-size: 240px;
+     font-family: 'Tilt Warp', cursive;
+}
+.s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.table{
+      height: 500px;
+      width: 350px;
+      border: 6px solid rgb(182, 182, 182);
+      border-radius: 5px;
+}

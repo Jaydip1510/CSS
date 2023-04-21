@@ -1,0 +1,45 @@
+.box{
+    height: 110px;
+    width: 110px;
+    border: 5px solid green;
+    float: left;
+    margin: 10px;
+    text-align: center;  
+    padding: 25px;
+    box-sizing: border-box;
+}   
+.pos1{
+    position: absolute;
+}
+.pos2{
+    position: relative;
+    top: 25px;
+    left: 65px;
+}
+.pos4{
+    position: relative;
+    left: 130px;
+}
+.pos5{
+    position: relative;
+    top: 25px;
+    left: 65px;
+}
+.b1{
+    background-image: url('colorful.jpg');
+}
+.b2{
+    background-image: url('fall.jpg');
+}
+.b3{
+    background-image: url('home.jpg');
+}
+.b4{
+    background-image: url('nature.jpg');
+}
+.b5{
+    background-image: url('photo.jpg');
+}
+.b6{
+    background-image: url('sunset.jpg');
+}

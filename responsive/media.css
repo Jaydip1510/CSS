@@ -1,0 +1,15 @@
+@media(max-width:1024){
+    .col-md-2{
+        width: 50%
+    }
+}
+@media(max-width:768px){
+    .sm-1{
+        width: 100%;
+    }
+}
+@media(min-width:320px){
+    .sm-1{
+        width: 100%;
+    }
+}

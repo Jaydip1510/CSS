@@ -1,50 +1,49 @@
 .container{
-    width: 656px;
-    height: 67.5vh;
-    border: 5px solid black;
-    border-radius: 15px;
-    margin:auto;
+    height:91.5vh;
+    width:653.5px ;
+    border: 5px solid greenyellow; 
+    margin: auto;
+    border-radius: 10px;
 }
 .black{
-      height: 80px;
-      width:  80px;
-      border: 1px solid black;
-      background-color: greenyellow;
-      float: left;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: rgb(198, 12, 12);
+    float: left;
 }
 .white{
-       height: 80px;
-       width: 80px;
-       border: 1px solid black;
-       background-color: purple;
-       float: left;
-}
-.fa-regular{
-    color: blue;
-    font-size: 70px;
-    padding-left: 15px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: aqua;
+    float: left;
 }
 .fa-solid{
-    color:blue;
+    color: fuchsia;
     font-size: 70px;
-    padding-left:15px ;
+    padding-left: 15px;
 }
-.d1{
-     color: blue;
-     font-size: 70px;
-     padding-left: 15px;
+.fa-chess-rook{
+    color: fuchsia;
+    font-size: 70px;
+    padding-left: 15px;
+}
+.fa-chess-knight{
+    color: fuchsia;
+    font-size: 70px;
+    padding-left: 15px;
 }
 .fa-chess-bishop{
-    color: blue;
+    color: fuchsia;
+    font: 70px;
+    padding-left: 15px;
+}
+.fa-chess-king{
+    color: fuchsia;
     font-size: 70px;
     padding-left: 15px;
 }
-.fa-regular{
-    color: blue;
-    font-size: 70px;
-    padding-left: 15px;
-}
-.d1{
-    color:deeppink;
-    
+.c1{
+    color: mediumblue;
 }

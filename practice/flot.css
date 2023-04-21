@@ -1,0 +1,48 @@
+.container{
+    width: 653.5px;
+    height: 91.5vh;
+    border: 3px solid navy;
+    margin:auto;
+}
+.black{
+      height: 80px;
+      width:  80px;
+      border: 1px solid black;
+      background-color:deeppink;
+      float: left;
+}
+.white{
+       height: 80px;
+       width: 80px;
+       border: 1px solid black;
+       background-color: rgb(28, 210, 140);
+       float: left;
+}
+.fa-solid{
+     color: black;
+     font-size: 70px;
+     padding-left:15px ;
+}
+.fa-chess-rook{
+       color:black;
+       font-size: 70px;
+       padding-left:15px ;
+}
+.fa-chess-knight{
+       color:black;
+       font-size: 70px;
+       padding-left:15px ;
+}
+.fa-chess-bishop{
+    color:black;
+    font-size: 70px;
+    padding-left:15px ;
+}
+.fa-chess-king{
+    color:black;
+    font-size: 70px;
+    padding-left:15px ;
+}
+.down{
+      color: gold;
+}

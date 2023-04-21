@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+}
+
+.nav-menu {
+    height: 80px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.nav-link:hover{
+    color: red;
+}
+.d-block {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.d-block:hover {
+    color: orangered;
+}
+
+.submenu {
+    height: 90px;
+    width: 100px;
+    background-color: aquamarine;
+    color: blue;
+    position: absolute;
+    text-align: left;
+    top: 50px;
+    display: none;
+
+}
+
+div.menu div:nth-child(1):hover .submenu {
+    display: block;
+}
+
+.submenu1 {
+    height: 110px;
+    width: 100px;
+    background-color: aquamarine;
+    color: blue;
+    position: absolute;
+    top: 50px;
+    display: none;
+    text-align: left;
+}
+
+div.menu div:nth-child(2):hover .submenu1 {
+    display: block;
+}
+
+.submenu2 {
+    height: 110px;
+    width: 100px;
+    background-color: aquamarine;
+    color: blue;
+    position: absolute;
+    top: 50px;
+    display: none;
+    text-align: left;
+}
+div.menu div:nth-child(3):hover .submenu2 {
+    display: block;
+}
+.submenu3 {
+    height: 110px;
+    width: 100px;
+    background-color: aquamarine;
+    color: blue;
+    position: absolute;
+    top: 50px;
+    display: none;
+    text-align: left;
+}
+div.menu div:nth-child(4):hover .submenu3 {
+    display: block;
+}
+.submenu4{
+       height: 110px;
+       width: 100px;
+       background-color: aquamarine;
+       color: blue;
+       position: absolute;
+       top: 50px;
+       display: none;
+       text-align: left;
+}
+div.menu div:nth-child(5):hover .submenu4{
+    display: block;
+}

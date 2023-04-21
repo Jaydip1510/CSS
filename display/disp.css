@@ -5,9 +5,12 @@
      padding: 5px;
      margin: 10px;
      border-radius: 15px;
-     display:inline-block;
+     /*display: inline-block;*/
      background-color: aqua;
      margin:auto;
+     margin-bottom: 15px;
+     text-align: center;
+
 }
 .disp{
     width: 400px;

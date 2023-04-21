@@ -1,0 +1,365 @@
+body{
+       margin: 0;
+       padding: 0;
+}
+.h1{
+       height: 50px;
+       width: 100%;
+       background-color: black;
+}
+.i1{
+      display: flex;
+      flex-direction: row;
+      flex-direction: row;
+}
+.fa-clock{
+             height: 20px;
+             width: 15px;
+             color: rgb(167, 140, 106);
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             padding: 15px 20px;
+             display: inline;
+}
+.p1{
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(167, 140, 106);       
+}
+.p2{
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+      margin-left: 10px;
+}
+.icon{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+
+        
+}
+.f1{
+    font-size: 15px;
+    color: white;
+    margin-left: 300px;
+    padding: 0 20px;
+}
+.f2{
+     font-size: 15px;
+     color: white;
+}
+.f3{
+     font-size: 15px;
+     color: white;
+     margin-left: 20px;
+}
+.f4{
+     font-size: 15px;
+     color: white;
+     margin-left: 20px;
+}
+.f5{
+     font-size: 13px;
+     color: rgb(165, 134, 97);
+     margin-left: 340px;
+     font-weight: bold;
+     font-family: Roboto;
+}
+.p3{
+     font-size: 15px;
+     color: white;
+     margin-left: 10px;
+}
+.header{
+         width: 100%;
+         text-align: center;
+}
+.nav-menu{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(21, 16, 16);
+            display: flex;
+            justify-content: space-around;
+}
+.menu{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        justify-content: space-evenly;
+        z-index: 1;
+}
+.logo{
+        height: 55px;
+        width: 120px;
+        margin-top: 20px;
+        position: absolute;
+        left: 30px;
+}
+.nav-link{
+            font-size: 16px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px 20px;
+}
+.nav-link:hover{
+       color: rgb(160, 136, 104);
+}
+.d-block{
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    font-size: large;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+.d-block:hover{
+      color: rgb(160, 136, 104);;
+}
+.submenu{
+           height: 100px;
+           width:  150px;
+           background-color: black;
+           position: absolute;
+           top: 65px;
+           text-align: left;
+           display: none;
+}
+div.menu div:nth-child(1):hover .submenu{
+       display: block;
+}
+.submenu1{
+            height: 100px;
+            width: 200px;
+            background-color: black;
+            position: absolute;
+            top: 65px;
+            text-align: left;
+            display: none;
+}
+div.menu div:nth-child(3):hover .submenu1{
+    display: block;
+}
+.submenu2{
+             height: 250px;
+             width: 170px;
+             background-color: black;
+             position: absolute;
+             top: 65px;
+             text-align: left;
+             display: none;
+}
+div.menu div:nth-child(4):hover .submenu2{
+         display: block;
+}
+.submenu3{
+            height: 150px;
+            width: 170px;
+            background-color: black;
+            position: absolute;
+            top: 65px;
+            text-align: left;
+            display: none;
+}
+div.menu div:nth-child(5):hover .submenu3{
+       display: block;
+}
+.submenu4{
+            height: 200px;
+            width: 170px;
+            background-color: black;
+            position: absolute;
+            top: 65px;
+            text-align: left;
+            display: none;
+}
+div.menu div:nth-child(6):hover .submenu4{
+    display: block;
+}
+.table{
+         height: 50px;
+         width: 150px;
+         border-radius: 10px;
+         color: white;
+         background-color: rgb(176, 148, 113);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         position: relative;
+         left: 200px;        
+}
+.table:hover{
+        background-color: white;
+        color: rgb(154, 124, 85);
+}
+.s1{
+      height: 800px;
+      width: 100%;
+      border: 1px solid black;
+      background-image: url('main-banner.jpeg');
+      background-size: cover;
+}
+.welcome{
+          font-size: 17px;
+          color: white;
+          font-weight: bold;
+          font-family: Roboto;
+          margin-left: 150px;
+          margin-top: 150px;
+}
+.the{
+       font-size: 100px;
+       color: white;
+       font-weight: bold;
+       font-family: Roboto;
+       margin-left: 150px;
+}
+.table2{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+}
+.t1{
+       height: 60px;
+       width: 250px;
+       border-radius: 10px;
+       background-color: rgb(205, 171, 128);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-left: 150px; 
+       color: white; 
+           
+}
+.t1:hover{
+       background-color: white;
+       color: tan;
+}
+.t2{
+       height: 60px;
+       width: 250px;
+       border-radius: 10px;
+       background-color: black;
+       color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-left: 450px; 
+       margin-top: -60px; 
+       
+}
+.t2:hover{
+      background-color: white;
+      color: tan;
+}
+.s2{
+      height: 700px;
+      width: 100%;
+      border: 1px solid black;
+      background-color: black;
+}
+.about{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Roboto;
+        color: tan;
+        margin-left: 150px;
+        margin-top: 150px;
+        display: inline-block;
+}
+.fresh{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Roboto;
+        color: white;
+        display: block;
+        margin-top: 20px;
+}
+.sed{
+       font-size: 16px;
+       color: rgb(190, 190, 190);
+       font-weight: bold;
+       display: block;
+       font-family: Roboto;
+       margin-top: 30px;
+}
+.t3{
+       height: 150px;
+       width: 450px;
+       border-radius: 10px;
+       background-color: tan;
+       display: block;
+       margin-top: 50px;
+}
+.q1{
+       height: 100px;
+       width: 100px;
+       margin-left: 20px;
+       margin-top: 25px;
+       display: inline;
+}
+.vel{
+       font-size: 22px;
+       font-family: Roboto;
+       font-weight: bold;
+       float: right;
+       color: white;
+       margin-top: 35px;
+    
+}
+.ab{
+       float: right;
+       margin-top: 105px;
+}
+.s3{
+      height: 400px;
+      width: 100%;
+      border: 1px solid black;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-evenly;      
+}
+.t4{
+       height: 250px;
+       width: 350px;
+       background-image: url('service1.jpg');
+       background-size: cover;
+}
+.t4:hover{
+       box-shadow: 5px 5px 10px green, 10px 10px 15px orangered;
+}
+.t5{
+       height: 250px;
+       width: 350px;
+       background-image: url('service2.jpg');
+       background-size: cover;    
+}
+.t5:hover{
+    box-shadow: 5px 5px 10px green, 10px 10px 15px orangered;
+}
+.t6{
+      height: 250px;
+      width: 350px;
+      background-image: url('service3.jpg');
+      background-size: cover;
+}
+.t6:hover{
+    box-shadow: 5px 5px 10px green, 10px 10px 15px orangered;
+}
+.s4{
+      height: 800px;
+      width: 100%;
+      border: 1px solid black;
+      background-color: rgba(1, 0, 0, 0.957);
+}

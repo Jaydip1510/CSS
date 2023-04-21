@@ -1,0 +1,45 @@
+body{
+     background-image: url('nature.jpg');
+     background-size: cover;
+}
+fieldset{
+        height: 400px;
+        width: 350px;
+        margin: auto;
+        text-align: center;
+        margin-top: 150px;
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(135,253,29,1) 50%, rgba(252,176,69,1) 100%);
+        border-radius: 10px;
+}
+img{
+      height: 70px;
+      width: 70px;
+      border-radius: 100%;
+}
+.leb1 input{
+          height: 30px;
+          width: 250px;
+          border: 2px solid black;
+          border-radius: 10px;
+          text-align: center;
+          background-color: aqua;
+          margin-top: 30px;
+}
+.leb2 input{
+             height: 30px;
+             width: 250px;
+             border: 2px solid black;
+             border-radius: 10px;
+             text-align: center;
+             background-color: darkorange;
+             margin-top: 30px;
+}
+.btn input{
+        height: 30px;
+        width: 250px;
+        border: 3px solid rgba(39, 39, 203, 0.874);
+        background-color: deeppink;
+        border-radius: 10px;
+        color: white;
+        margin-top: 30px;
+}

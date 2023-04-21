@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Position Example</title>
+	<style>
+		.container {
+			width: 500px;
+			height: 500px;
+			background-color: lightgray;
+			position: relative;
+		}
+		
+		.box {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position: absolute;
+			top: 50px;
+			left: 50px;
+		}
+		
+		.box2 {
+			width: 150px;
+			height: 150px;
+			background-color: blue;
+			position: fixed;
+			top: 20px;
+			right: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box"></div>
+	</div>
+	<div class="box2"></div>
+</body>
+</html>

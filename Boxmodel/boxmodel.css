@@ -1,9 +1,10 @@
 .box{
-    height:160px;
-    width:300px;
-    background-color: greenyellow;
+
+    height: 175px;
+    width: 300px;
+    background-color: lawngreen;
     padding: 25px;
-    border:2px solid black;
-    margin-left:750px;
+    border: 2px solid black;
+    margin-left:600px;
     box-sizing: border-box;
 }

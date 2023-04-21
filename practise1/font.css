@@ -1,0 +1,24 @@
+#fontprp{
+         
+     font-family: Dancing Script;
+     font-size: xx-large;
+     font-weight: lighter;
+     font-variant: small-caps;
+     line-height: 70px;
+     letter-spacing: 7px;
+     word-spacing: 20px;
+     text-indent: 70px;
+}
+.txtdec{
+      text-decoration: underline dotted;
+      text-transform: capitalize;
+      text-align: right;
+}
+@font-face{
+      font-family: myfirstfont;
+      src:url('fonts/Signika-VariableFont_wght.ttf');
+}
+.offlinefnt{
+        font-family: 'myfirstfont';
+        font-size: 50px;
+}

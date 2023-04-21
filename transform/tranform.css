@@ -1,0 +1,32 @@
+.txtshadow{
+    color: yellow;
+    text-shadow: 5px 5px 3px red;
+    font-size: 25px;
+}
+.box{
+     height: 150px;
+     width: 200px;
+     border: 2px solid black;
+     background-color: red;
+     margin-top: 10px;
+     margin: auto;
+     box-shadow: 5px 5px 10px blue,15px 15px green;
+}
+.box1:hover{
+      height: 300px;
+      width: 200px;
+      background-color: aqua;
+      transform: rotate(90deg);
+      transform-origin: right bottom;
+      transform-style: preserve-3d;
+      transition: all 4s ease;
+}
+.box1{
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: blue;
+    margin-top: 60px;
+    transform: translate(180px);
+    perspective: 1000px;
+}

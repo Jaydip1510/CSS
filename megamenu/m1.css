@@ -1,0 +1,122 @@
+body{
+      margin: 0;
+      padding: 0;
+}
+.container{
+       width: 100%;
+       text-align: center;
+}
+.nav-menu{
+          height: 100px;
+          width: 100%;
+          background-color: black;
+          display: flex;
+          justify-content: space-around;
+}
+.menu{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      position: relative;
+      z-index: 1;
+}
+.nav-link{
+       text-decoration: none;
+       color: green;
+       font-weight: bold;
+       font-size: large;
+       padding: 10px 20px;
+}
+.d-block{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+.submenu{
+         height: 120px;
+         width: 110px;
+         border: 1px solid black;
+         background-color: black;
+         position: absolute;
+         top: 70px;
+         display: none;
+       
+}
+.submenu a{
+       color: deeppink;
+       padding: 10px;
+
+}
+div.menu div:nth-child(1):hover .submenu{
+    display: block;
+}
+.submenu2{
+         height: 150px;
+         width: 100px;
+         border: 1px solid black;
+         background-color: black;
+         position: absolute;
+         top: 70px;
+         display: none;      
+}
+.submenu2 a{
+       color: aqua;
+       padding: 5px;
+}
+div.menu div:nth-child(2):hover .submenu2{
+    display: block;
+}
+.submenu3{
+          height: 100px;
+          width: 100px;
+          border: 1px solid black;
+          background-color: black;
+          position: absolute;
+          top: 70px;
+          display: none;       
+}
+.submenu3 a{
+         color: blue;
+         padding: 5px;
+}
+div.menu div:nth-child(3):hover .submenu3{
+      display: block;
+}
+.submenu4{
+        height: 150px;
+        width: 120px;
+        border: 1px solid black;
+        background-color: black;
+        position: absolute;
+        top: 70px;
+        display: none;
+}
+.submenu4 a{
+      color: red;
+      padding: 5px;
+}
+div.menu div:nth-child(4):hover .submenu4{
+     display: block;
+}
+.submenu5{
+          height: 150px;
+          width: 120px;
+          border: 1px solid black;
+          background-color: black;
+          position: absolute;
+          top: 70px;
+          display: none;
+}
+.submenu5 a{
+        color: deepskyblue;
+        padding: 5px;
+}
+div.menu div:nth-child(5):hover .submenu5{
+        display: block;
+}
+.nav-link:hover{
+     color: darkmagenta;
+}

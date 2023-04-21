@@ -1,0 +1,39 @@
+.box{
+    height: 200px;
+    width: 200px;
+    transform: rotate(80deg);
+    border: 2px solid black;
+    margin: 70px;
+    background-color: springgreen;
+    transform: rotatex(70deg);
+      transform-style: preserve-3d;
+      transition: all 3s;
+}
+.box:hover{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,143,0.9949229691876751) 100%);
+    transform: rotate(70deg);
+    transform-style: preserve-3d;
+    transition: all 0.8s;
+
+}
+.box::before{
+    background: rgb(63,94,251);
+    background: linear-gradient(163deg, rgba(63,94,251,1) 0%, rgba(70,252,143,0.9949229691876751) 100%);
+    border: 2px solid black;
+     transform-origin: top;
+     height: 200px;
+     width: 30px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     content: '';
+}
+#txtAdd:hover::after{
+      content: 'after text hello';
+
+}
+#txtAdd:hover::before{
+    content: 'after text hello';
+
+}

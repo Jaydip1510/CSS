@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+      width: 100%;
+      text-align: center;
+    }
+.nav-menu{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around; 
+    float: left;
+}
+.menu{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      position: relative;
+      z-index: 1; 
+}
+.list1{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;    
+}
+.list1 ul
+{
+   display: none;
+   list-style: none;
+   
+}
+.list1 li:hover ul
+{ 
+   display: block;
+}
+.logo{
+    
+    height: 60px;
+    width: 150px;
+    float: left;
+}
+.menus{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 20px;
+    position: relative;
+    padding: 10px 20px;
+   
+}
+.submenu{
+    top: 65px;
+    position: absolute;
+    width: 200px;
+    background-color: black;
+    display: none;
+    text-align: left;    
+}
+.submenu a{
+  
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+.submenu a:hover{
+    color: rgb(126, 100, 66);
+}
+.home:hover .submenu{
+    display: block;
+}
+.menus:hover{
+    color: tan;
+}
+.table{
+        height: 50px;
+        width: 120px;
+        border: 1px solid black;
+        background-color: tan;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        color: white;
+}
+.table:hover{
+      background-color: white;
+      color: tan;
+}

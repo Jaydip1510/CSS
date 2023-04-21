@@ -1,0 +1,22 @@
+.d1{
+    height: 500px;
+    width: 80%;
+    border: 5px double rgb(47, 57, 255);
+    
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: cyan;
+    font-size: 30px;
+    font-family: Dancing Script;
+   /* background-position: center;*/
+    text-align: center;
+    background-clip: content-box;
+    background-image: url("nature.jpg");
+    color: pink;
+    background-repeat: repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    background-origin: border-box;
+    background-attachment: fixed;
+    
+}

@@ -59,38 +59,18 @@ body{
     background-size: 1500px;
     background-repeat: no-repeat;
 }
-.d6{
+.similer{
     height: 200px;
     width: 300px;
     float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d7{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
+    margin-right: 30px;
     margin-top: 80px;
     text-align: center;
     padding-top: 40px;
     
 
 }
-.d8{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
 
-}
 .s4{
     height: 380px;
     width: 70%;
@@ -104,36 +84,7 @@ body{
     background-size: contain;
     background-repeat: repeat-x;
 }
-.d9{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d10{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d11{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
+
 .s5{
     height: 410px;
     width: 70%;
@@ -147,38 +98,7 @@ body{
     background-size: 1500px;
     background-repeat: no-repeat;
 }
-.d12{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d13{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
 
-}
-.d14{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-
-
-}
 .s6{
     height: 380px;
     width: 70%;
@@ -190,38 +110,10 @@ body{
     color: red;
     background-image: url("img3\ .jpg");
     background-size: contain;
-    background-repeat: repeat-x;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
-.d15{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d16{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d17{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
 
-}
 .s7{
     height: 380px;
     width: 70%;
@@ -233,38 +125,10 @@ body{
     color: red;
     background-image: url("img3\ .jpg");
     background-size: contain;
-    background-repeat: repeat-x;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
-.d18{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d19{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d20{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
+
 .s8{
     height: 410px;
     width: 70%;
@@ -278,37 +142,7 @@ body{
     background-size: 1500px;
     background-repeat: no-repeat;
 }
-.d21{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d22{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
 
-}
-.d23{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;  
-
-}
 .s9{
     height: 380px;
     width: 70%;
@@ -322,36 +156,7 @@ body{
     background-size: contain;
     background-repeat: repeat;
 }
-.d24{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d25{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
-.d26{
-    height: 200px;
-    width: 300px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 40px;
-    
-}
+
 .solid-white{
     border: 5px solid white;
 }
@@ -362,7 +167,7 @@ body{
     border: 5px dashed white;
 }
 .darkgoldenrod{
-    border: 3px ridge darkgoldenrod;
+    border: 3px ridge wheat;
 }
 .dashed-black{
     border: 5px dashed black;

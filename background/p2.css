@@ -1,0 +1,16 @@
+.d1{
+    height: 450px;
+    width: 70%;
+    border: 10px dotted yellow;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: springgreen;
+    background-position: center;
+    text-align: center;
+    font-size: x-large;
+    color: blue;
+    background-image: url("deposit.jpg");
+    background-origin: content-box;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}

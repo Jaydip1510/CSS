@@ -1,0 +1,54 @@
+.d0{
+    background-color: #a5e7cb;
+    height: 695px;
+    
+}
+.d1{
+    background-color: darkgreen;
+    height: 100px;
+    line-height: 120px;
+}
+.fa-circle-user{
+    color: white;
+    font-size: 50px;
+    text-indent: 100px;
+}
+.d2{
+    font-family: Passion One;
+    font-size: 40px;
+    text-indent: 300px;
+    color: white;
+}
+.yes{
+    font-family: Jura;
+    text-align: center;
+    height: 50px;
+    text-decoration: underline dotted;
+    line-height: 70px;
+    color: gray;
+}
+.d3{
+    font-family: Itim;
+    text-indent: 20px;
+    font-size: 18px;
+}
+.fa-clock {
+    font-family:"Itam";
+    text-indent:20px;
+    color: gray;
+    font-size: 15px;
+
+}
+
+.d4 {
+    font-family: "Itim";
+    color: gray;
+    text-decoration: overline dashed;
+    font-size: 15px;
+}
+
+.d5 {
+    text-align: right;
+    font-family: "Itim";
+    font-size:18px ;
+}

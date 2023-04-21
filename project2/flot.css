@@ -1,6 +1,6 @@
 .container{
-      height: 91.5vh;
-      width: 654px;
+      height: 653px;
+      width: 653.5px;
       border: 5px solid gold;
       margin: auto;
 
@@ -12,6 +12,7 @@
     background-color: aqua;
     float: left;
 }
+
 .white{
     height: 80px;
     width:  80px;
@@ -24,6 +25,8 @@
     font-size: 70px;
     padding-left:15px ;
 }
+
+
 .fa-chess-rook{
     color: black;
     font-size: 70px;
@@ -41,5 +44,5 @@
     padding-left:10;
 }
 .d1{
-    color: deeppink;
+    color: white;
 }

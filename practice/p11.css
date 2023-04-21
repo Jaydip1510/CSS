@@ -1,0 +1,11 @@
+.box{
+      height: 500px;
+      width: 600px;
+      border-right: 5px solid green;
+      border-top: 5px dotted red;
+      border-left: 5px dashed yellow;
+      border-bottom: 5px double palevioletred;
+      background-color: orangered;
+      margin: auto;
+      box-sizing: content-box;
+}
