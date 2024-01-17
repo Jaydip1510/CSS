@@ -1,373 +1,606 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>website</title>
-  <link rel="stylesheet" href="index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap|Gloock"
-    rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
-    integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kaffen</title>
+    <link rel="stylesheet" href="INDEX.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <div class="container">
-    <div class="main">
-      <div style="display: inline;"><i class="fa-regular fa-clock"></i>
-        <span><a class="l1"> OPENING HOURS :</a></span>
-        08:00 AM - 09:00 PM
-      </div>
+    <!-- Header -->
 
-      <div class="social">
-        <a><i class="fa-brands fa-facebook-f"></i></a>
-        <a><i class="fa-brands fa-twitter"></i></a>
-        <a><i class="fa-brands fa-instagram"></i></a>
-        <a><i class="fa-brands fa-youtube"></i></a>
-      </div>
-      <div style="display: inline;"><span><a class="l1"> LOCATIONS :</a></span> 55 MAIN STREET, NEW YORK
-        <i class="fa-solid fa-location-dot l1"></i>
-      </div>
+    <!-- address -->
+    <div class="bg-dark justify-content-between d-flex t14 p2">
+        <div class="m-left">
+            <i class="fa-regular fa-clock color-brown"></i>
+            <span class="font-roboto color-brown"> OPENING HOURS : </span>
+            <span class="font-roboto color-white"> 08:00 AM - 09:00 PM </span>
+        </div>
+        <div class="color-white cursor">
+            <i class="fa-brands fa-facebook mx1"></i>
+            <i class="fa-brands fa-instagram mx1"></i>
+            <i class="fa-brands fa-twitter mx1"></i>
+            <i class="fa-brands fa-youtube mx1"></i>
+        </div>
+        <div class="m-right">
+            <i class="fa-solid fa-location-dot color-brown"></i>
+            <span class="font-roboto color-brown"> LOCATION : </span>
+            <span class="font-roboto color-white"> 55 MAIN STREET, NEW YORK </span>
+        </div>
     </div>
-  </div>
-  <div class="container1">
-    <img src="logo.png" class="logo1">
-    <div class="nav-menu">
-      <div class="menu">
-        <div class="list1">
+    <!-- address over -->
 
-          <li>
-            <a href="#" class="menus">HOME<i class="las la-angle-down"></i></a>
-            <ul class="submenu">
-              <li><a href="">COFFEE HOUSE</a></li>
-              <li><a href="">RESTAURANT</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#" class="menus">ABOUT</a>
-          </li>
-          <li>
-            <a href="#" class="menus">MENU<i class="las la-angle-down"></i></a>
-            <ul class="submenu">
-              <li><a href="">MENU COFFEE</a></li>
-              <li>
-                <a href="">MENU RESTAURANT</a>
-              </li>
-            </ul>
-          </li>
+    <div class="relative">
+        <div class="header">
+            <img class="logo-div" src="../Kaffen/images/logo.png" height="45px">
+            <div>
+                <div class="home-dropdown-container">
+                    <a href="" class="nav-link home-dropdown-btn">HOME<i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="home-dropdown-content">
+                        <a href="" class="nav-link">COFFEE HOUSE</a>
+                        <a href="" class="nav-link">RESTAURANT</a>
+                    </div>
+                </div>
+                <a href="" class="nav-link home-dropdown-btn">ABOUT</a>
+                <div class="home-dropdown-container">
+                    <a href="" class="nav-link home-dropdown-btn"> MENU <i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="home-dropdown-content">
+                        <a href="" class="nav-link">MENU - COFFEE</a>
+                        <a href="" class="nav-link">MENU - RESTAURANT</a>
+                    </div>
+                </div>
+                <div class="home-dropdown-container">
+                    <a href="" class="nav-link home-dropdown-btn">PAGES<i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="home-dropdown-content">
+                        <a href="" class="nav-link">RESERVATION</a>
+                        <a href="" class="nav-link">HISTORY</a>
+                        <a href="" class="nav-link">SERVICE</a>
+                        <a href="" class="nav-link">OUR CHEFS</a>
+                        <a href="" class="nav-link">GALLERY</a>
+                        <a href="" class="nav-link">FAQ</a>
+                    </div>
+                </div>
+                <div class="home-dropdown-container">
+                    <a href="" class="nav-link home-dropdown-btn">BLOG<i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="home-dropdown-content">
+                        <a href="" class="nav-link">BLOG GRID</a>
+                        <a href="" class="nav-link">BLOG STANDARD</a>
+                        <a href="" class="nav-link">BLOG SINGLE</a>
+                    </div>
+                </div>
+                <div class="home-dropdown-container">
+                    <a href="" class="nav-link home-dropdown-btn">SHOP<i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="home-dropdown-content">
+                        <a href="" class="nav-link">PRODUCTS</a>
+                        <a href="" class="nav-link">PRODUCT SINGLE</a>
+                        <a href="" class="nav-link">CART</a>
+                        <a href="" class="nav-link">CHECKOUT</a>
+                        <a href="" class="nav-link">MY ACCOUNT</a>
+                    </div>
+                </div>
 
-          <li>
-            <a href="#" class="menus">PAGES<i class="las la-angle-down"></i></a>
-            <ul class="submenu">
-              <a href="">SERVICE</a>
-              <a href="">RESERVATION</a>
-              <a href="">HISTORY</a>
-              <a href="">OUR CHEFS</a>
-              <a href="">GALLERY</a>
-              <a href="">FAQ</a>
-            </ul>
-          </li>
-          <li>
-            <a href="#" class="menus">BLOG<i class="las la-angle-down"></i></a>
-            <ul class="submenu">
-              <a href="">BLOG GRID</a>
-              <a href="">BLOG STANDARD</a>
-              <a href="">BLOG SINGLE</a>
-            </ul>
-          </li>
-          <li>
-            <a href="#" class="menus">CONTACT</a>
-          </li>
-        </div>
-        <div class="a">BOOK A TABLE</div>
-      </div>
-      
-    </div>
-
-  </div>
-
-  <div class="section1"> 
-    <div class="welcome">WELCOME TO THE KAFFEN</div>
-      <div class="the">The London<br>Coffee House</div>
-
-      <div class="btn">EXPLORE MORE</div>
-      <div class="btn1">GET DELIVERY</div> 
-  </div>
-  <div class="container2">
-    <div class="s4">
-      <img src="about.png" class="img1">
-      <div class="p5"> ABOUT US
-        <p class="p6">Organic & Fresh Coffee<br>
-          Provider Center</p>
-
-        <p class="p7">
-          Sed ut perspiciatis unde omnis iste natus error voluptate<br> accusantium doloremque laudantium, totam rem
-          aperiam
-          eaque<br> ipsa quae abillo inventore veritatis et quasi architecto beatae<br> vitae dicta sunt explicabo.
-          Nemo
-          enim ipsluptatem quia voluptas<br> sit aspernatur aut odit aut fugit sed quia consequuntur magni<br> dolores
-          eos
-          qui ratione
-        </p>
-
-        <p class="p8">
-          <img src="akshay.jpg" class="akki">
-          Quis autem vel eum iure<br> reprehenderit in ealuptate velit<br> esse molestiae
-        </p>
-      </div>
-    </div>
-  </div>
- 
-
-  <div class="container2">
-    <div class="s5">
-      <div class="imag">
-        <!-- <i class="las la-utensils"></i> -->
-
-      </div>
-      <div class="imag1">
-
-      </div>
-
-      <div class="imag2">
-
-      </div>
-    </div>
-    <div class="s6">
-      <div class="p9">CHOOSE BEST COFFEE</div>
-      <div class="p10">Kaffen Popular Coffee Menu</div>
-      <div class="t1">
-        <div class="imag3">
-        </div>
-        <div class="p11">Americano Coffee
-          <div class="p12">2/3 espresso, 1/3 streamed milk
-            <div class="p13">--------------$4.9</div>
-          </div>
-        </div>
-        <div class="imag4">
-        </div>
-        <div class="p15">Espresso Coffee
-          <div class="p16">2/3 espresso, 1/3 streamed milk
-            <div class="p17">--------------$4.9</div>
-          </div>
-        </div>
-
-        <div class="imag5">
-        </div>
-
-        <div class="p18">Barista Pouring Syrup
-          <div class="p19">2/3 espresso, 1/3 streamed milk</div>
-          <div class="p20">--------------$3.5</div>
-        </div>
-
-        <div class="imag6">
-        </div>
-        <div class="p21">Cold - Coffee
-          <div class="p22">2/3 espresso, 1/3 streamed milk
-            <div class="p23">--------------$6.0</div>
-          </div>
-        </div>
-
-        <div class="imag7">
-        </div>
-        <div class="p24">Cappuccino Arabica
-          <div class="p25">2/3 espresso, 1/3 streamed milk
-            <div class="p26">--------------$2.8</div>
-          </div>
-        </div>
-        <div class="imag8"></div>
-        <div class="p27">Milk Cream Coffee
-          <div class="p28">2/3 espresso, 1/3 streamed milk
-            <div class="p29">--------------$7.5</div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="s7">
-      <img src="Screen.png" class="imag9">
-      <img src="ch2.jpg" class="imag10">
-      <div class="p30">WHY CHOOSE US
-        <p class="p31">New London Coffee Founded<br> For Extraordinary Test</p>
-        <p class="p32">Sed ut perspiciatis unde omnis iste natus error voluptate<br> accusantium doloremque laudantium,
-          totam rem aperiam eaque<br> ipsa quae abillo inventore veritatis</p>
-        <img src="icon2.png" class="icon1">
-        <p class="p33">Natural Coffee Beans</p>
-        <p class="p34">Sed ut perspiciatis unde omnis iste natus error<br> voluptate accusantium doloremque</p>
-        <img src="icon3.png" class="icon2">
-        <p class="p33">100% ISO Certification</p>
-        <p class="p34">Sed ut perspiciatis unde omnis iste natus error<br> voluptate accusantium doloremque</p>
-        <p class="p35">EXPLORE MORE > </p>
-        <img src="icon4.png" class="icon3">
-        <img src="icon5.png" class="icon4">
-
-      </div>
-    </div>
-    <div class="s8">
-      <div class="table1"></div>
-      <div class="table2"></div>
-      <div class="table3"></div>
-    </div>
-
-    <div class="s9">
-      <!-- <img src="circle.png" class="circle"> -->
-      <div class="p36">CUSTOMER FEEDBACK
-        <p class="p37">What Our Clients Say</p>
-        <div class="d-flex">
-          <fieldset>
-            <legend><img src="rev1.jpg" class="rev1"></legend>
-            <div class="star">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                class="fas fa-star"></i><i class="fas fa-star"></i>
+                <a href="" class="nav-link home-dropdown-btn">CONTACTS</a>
             </div>
-            <div class="sed">Sed ut perspiciatis unde<br>omins natus error luptatem<br>accousantium
-              doloremque<br>laudantium totam remriam<br>eaque quae abillo</div>
-            <div class="fred">Frederick S. France</div>
-            <p class="design">Web Deigner</p>
-          </fieldset>
-
-          <fieldset>
-            <legend><img src="rev2.jpg" class="rev1"></legend>
-            <div class="star">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                class="fas fa-star"></i><i class="fas fa-star"></i>
+            <div>
+                <i class="fa-solid fa-cart-shopping color-white t-24 cursor" style="padding-right: 40px;"></i>
+                <button class="btn1">BOOK A TABLE</button>
             </div>
-            <div class="sed">Sed ut perspiciatis unde<br>omins natus error luptatem<br>accousantium
-              doloremque<br>laudantium totam remriam<br>eaque quae abillo</div>
-            <p class="fred">James M. London</p>
-            <p class="design">Lawyer</p>
+        </div>
 
-          </fieldset>
+        <!-- Header Over -->
 
-          <fieldset>
-            <legend><img src="rev3.jpg" class="rev1"></legend>
-            <div class="star">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                class="fas fa-star"></i><i class="fas fa-star"></i>
+        <!-- Main banner -->
+
+        <div class="relative d-flex justify-content-center align-items-center">
+
+            <img class="banner" src="../Kaffen/images/main-banner.jpeg" width="100%">
+
+            <button class="btn-left"></button>
+            <button class="btn-right"></button>
+
+            <div class="container color-white absolute">
+
+                <p class="subtitle">
+                    WELCOME TO THE CAFFEN
+                </p>
+
+                <p class="title">
+                    The London <br>
+                    Coffee House
+                </p>
+
+                <div class="mt5">
+                    <button class="btn"> EXPLORE MORE <i class="fa-solid fa-chevron-right"></i> </button>
+                    <button class="btn mx1" style="background-color: var(--dark);"> GET DELIVERY <i
+                            class="fa-solid fa-chevron-right"></i></button>
+                </div>
             </div>
-            <div class="sed">Sed ut perspiciatis unde<br>omins natus error luptatem<br>accousantium
-              doloremque<br>laudantium totam remriam<br>eaque quae abillo</div>
-            <p class="fred">Olivia D. New York</p>
-            <p class="design">Dentist</p>
+        </div>
 
-          </fieldset>
+        <!-- Main banner over -->
 
-          <fieldset>
-            <legend><img src="rev1.jpg" class="rev1"></legend>
-            <div class="star">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                class="fas fa-star"></i><i class="fas fa-star"></i>
+        <!-- about us -->
+
+        <div class="bg-dark d-flex flex-column align-items-center justify-content-center pt130">
+
+            <div class="container d-flex">
+                <div class="w50 mr4">
+                    <p class="color-brown">ABOUT US</p>
+                    <p class="section-title">Organic & Fresh Coffee <br> Provider Center</p>
+                    <p class="fade-white lh-26 mt5">Sed ut perspiciatis unde omnis iste natus error voluptate
+                        accusantium
+                        doloremque laudantium, totam rem aperiam eaque ipsa quae abillo inventore veritatis et quasi
+                        architecto beatae vitae dicta sunt
+                        explicabo. Nemo enim ipsluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia
+                        consequuntur magni dolores eos qui ratione</p>
+
+                    <div class="d-flex bg-brown radius1 p2 mt5">
+                        <img src="../Kaffen/images/quote.png" height="95px" width="95px">
+                        <p class="mx2 t-22 color-white t-italic lh-30">Quis autem vel eum iure reprehenderit in
+                            ealuptate
+                            velit esse molestiae</p>
+                    </div>
+                </div>
+                <div class="w50 ml4">
+                    <img src="../Kaffen/images/aboutus.png" height="544" width="686">
+                </div>
             </div>
-            <div class="sed">Sed ut perspiciatis unde<br>omins natus error luptatem<br>accousantium
-              doloremque<br>laudantium totam remriam<br>eaque quae abillo</div>
-            <p class="fred">Frederick S. France</p>
-            <p class="design">Web Deigner</p>
-          </fieldset>
+            <div class="container d-flex justify-content-between pt130" style="padding-bottom: 130px;">
+                <div class="service1-container">
+                    <img class="service1-img" src="../Kaffen/images/service1.jpg" height="270" width="366">
+                    <div class="service1-content">
+                        <i class="fa-solid fa-utensils color-white" style="font-size: 45px;"></i>
+                        <p class="t-22 color-white font-oswald mt3">Restaurant Menu</p>
+                    </div>
+                </div>
+                <div class="service2-container">
+                    <img class="service2-img" src="../Kaffen/images/service2.jpg" height="270" width="366">
+                    <div class="service2-content">
+                        <i class="fa-solid fa-mug-hot color-white" style="font-size: 45px;"></i>
+                        <p class="t-22 color-white font-oswald mt3">Coffee Menu</p>
+                    </div>
+                </div>
+                <div class="service3-container">
+                    <img class="service3-img" src="../Kaffen/images/service3.jpg" height="270" width="366">
+                    <div class="service3-content">
+                        <i class="fa-solid fa-champagne-glasses color-white" style="font-size: 45px;"></i>
+                        <p class="t-22 color-white font-oswald mt3">Food Services</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="s10">
-      <div class="num">256+</div>
-      <div class="pre">Premium Clients
-        <div class="unde">Sed ut perspiciatis unde</div>
-      </div>
-      < <div class="num1">362+
-    </div>
-    <div class="pre">Expert Members
-      <p class="unde">Sed ut perspiciatis unde</p>
-    </div>
+        <!-- about us over -->
 
-    <div class="num1">753+</div>
-    <div class="pre">Winning Awards
-      <p class="unde">Sed ut perspiciatis unde</p>
-    </div>
-  </div>
+        <!-- Coffee menu -->
 
-  <div class="s11">
-    <div class="every">GET EVERY SINGLE UPDATE
-      <h3 class="some">Read Some Latest Blog & News</h3>
-
-      <div class="table4">
-
-      </div>
-
-      <div class="table5">
-
-      </div>
-
-      <div class="table6">
-
-      </div>
-
-      <div class="button">VIEW ALL> </div>
-
-    </div>
-  </div>
-
-  <div class="s12">
-    <div class="need">NEED A TABLE ON COFFEE HOUSE
-      <div class="your">Booking Table For Your & Family Members</div>
-    </div>
-
-    <div class="button1"> BOOKING TABLE</div>
-  </div>
-  <div class="footer">
-
-    <div class="foot">
-      <img src="logo.png" class="logo2">
-    </div>
-    <div class="d-flex">
-      <div class="hours">Working Hours
-        <ul class="ul">
-          <li>Sunday-Thursday</li>
-          <li class="li">08:00 am - 09:00pm</li>
-          <li class="only">Only Friday</li>
-          <li class="li">03:00 pm - 09:00pm</li>
-          <li class="orange">Saturday Close</li>
-        </ul>
-      </div>
-      <div class="contact">Contact Us
-        <p> <i class="fa-solid fa-location-dot fa-light"></i></p>
-        <p class="location">Location :</p>
-        <p class="street">55 Main Street,New York</p>
-
-        <div class="email"><i class="fa-solid fa-envelope-open email"></i>
-          <p class="add">Email Address :</p>
-          <p class="dev">kaffendev@gmail.com</p>
+        <div class="pt130 d-flex flex-column align-items-center">
+            <p class="t-16 color-brown">
+                CHOOSE BEST COFFEE
+            </p>
+            <p class="section-title" style="margin-bottom: 80px; margin-top: 10px;">
+                Popular Coffee Menu
+            </p>
+            <div class="container d-flex bg-dark p4 menu-container">
+                <div class="w50">
+                    <div class="d-flex align-item-center p4">
+                        <div class="menu-img1">
+                            <img height="160px" width="150px" src="../Kaffen/images/menu1.jpg">
+                        </div>
+                        <div>
+                            <p class="color-white t-22 p2 font-oswald">
+                                Cold Brew Coffee
+                            <p class="pl2 m-left16 fade-white">
+                                2/3 espresso, 1/3 streamed milk
+                            </p>
+                            <p class="p2 color-brown t-22 font-merinda">
+                                ----------- $7.9
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-item-center p4">
+                        <div class="menu-img1">
+                            <img height="160px" width="150px" src="../Kaffen/images/menu2.jpg">
+                        </div>
+                        <div>
+                            <p class="color-white t-22 p2 font-oswald">
+                                Espresso Coffee
+                            <p class="pl2 m-left16 fade-white">
+                                2/3 espresso, 1/3 streamed milk
+                            </p>
+                            <p class="p2 color-brown t-22 font-merinda">
+                                ----------- $4.9
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-item-center p4">
+                        <div class="menu-img1">
+                            <img height="160px" width="150px" src="../Kaffen/images/menu3.jpg">
+                        </div>
+                        <div>
+                            <p class="color-white t-22 p2 font-oswald">
+                                Cold - Coffee
+                            <p class="pl2 m-left16 fade-white">
+                                2/3 espresso, 1/3 streamed milk
+                            </p>
+                            <p class="p2 color-brown t-22 font-merinda">
+                                ----------- $6.0
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w50">
+                    <div class="d-flex align-item-center p4">
+                        <div class="menu-img1">
+                            <img height="160px" width="150px" src="../Kaffen/images/menu4.jpg">
+                        </div>
+                        <div>
+                            <p class="color-white t-22 p2 font-oswald">
+                                Americano
+                            <p class="pl2 m-left16 fade-white">
+                                2/3 espresso, 1/3 streamed milk
+                            </p>
+                            <p class="p2 color-brown t-22 font-merinda">
+                                ----------- $4.9
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-item-center p4">
+                        <div class="menu-img1">
+                            <img height="160px" width="150px" src="../Kaffen/images/menu5.jpg">
+                        </div>
+                        <div>
+                            <p class="color-white t-22 p2 font-oswald">
+                                Barista Pouring Syrup
+                            <p class="pl2 m-left16 fade-white">
+                                2/3 espresso, 1/3 streamed milk
+                            </p>
+                            <p class="p2 color-brown t-22 font-merinda">
+                                ----------- $3.5
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-item-center p4">
+                        <div class="menu-img1">
+                            <img height="160px" width="150px" src="../Kaffen/images/menu6.jpg">
+                        </div>
+                        <div>
+                            <p class="color-white t-22 p2 font-oswald">
+                                Cappuccino Arabica
+                            <p class="pl2 m-left16 fade-white">
+                                2/3 espresso, 1/3 streamed milk
+                            </p>
+                            <p class="p2 color-brown t-22 font-merinda">
+                                ----------- $2.8
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
 
-      <div class="gallery">Gallery
-        <div class="g1-row">
-          <div class="g1"></div>
-          <div class="g2"></div>
-          <div class="g3"></div>
-        </div>
-        <div class="g1-row">
-          <div class="g4"></div>
-          <div class="g5"></div>
-          <div class="g6"></div>
-        </div>
+        <!-- Coffee menu over -->
 
-      </div>
+        <!-- Why choose us -->
+
+        <div class="bg-dark d-flex align-items-center justify-content-center pt130 pb130" style="align-items: stretch;">
+            <div class="ptr">
+                <img src="../Kaffen/images/parallax_icon1.png" height="145px" width="160">
+            </div>
+            <div class="container d-flex">
+                <div class="w50 mr4">
+                    <img src="../Kaffen/images/chooseus.jpg" height="700px" width="550px">
+                </div>
+                <div class="w50 m-left45">
+                    <p class="color-brown t-16 mt5"> WHY CHOOSE US </p>
+                    <p class="color-white font-oswald t-42 mt7"> New London Coffee Founded <br> For Extraordinary Test
+                    </p>
+                    <p class="fade-white mt5 lh-30"> Sed ut perspiciatis unde omnis iste natus error voluptate
+                        accusantium
+                        doloremque laudantium, totam rem aperiam eaque ipsa quae abillo inventore veritatis </p>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex">
+                            <img class="mx34" src="../Kaffen/images/coffeebean.png" height="70px" width="70px">
+                            <div class="mx30">
+                                <p class="font-oswald color-white t-24"> Natural Coffee Beans </p>
+                                <p class="fade-white mt6 lh-26"> Sed ut perspiciatis unde omnis iste natus error
+                                    voluptate
+                                    accusantium doloremque </p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <img class="mx34" src="../Kaffen/images/teacup.png" height="70px" width="70px">
+                            <div class="mx30">
+                                <p class="font-oswald color-white t-24"> 100% ISO Certification </p>
+                                <p class="fade-white mt6 lh-26"> Sed ut perspiciatis unde omnis iste natus error
+                                    voluptate
+                                    accusantium doloremque </p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn mt7"> EXPLORE MORE <i class="fa-solid fa-chevron-right"></i> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <img class="d-block ptr1" src="../Kaffen/images/parallax_icon2.png" height="178px" width="130px">
+                <img class="absolute" style="bottom: 0;" src="../Kaffen/images/parallax_icon3.png" height="106px"
+                    width="205px">
+            </div>
+        </div>
     </div>
-    <hr>
-    <div class="copy">Copyright © 2022 Kaffen. All Rights Reserved.</div>
-  </div>
 
+    <!-- Why choose us over -->
 
+    <!-- Coffee image -->
 
+    <div class="bg-gray pt130 pb100 d-flex align-items-center justify-content-center">
+        <div class="coffee-container relative margin8">
+            <div class="coffee-contain absolute color-white d-flex align-items-center justify-content-center">
+                Lattee
+            </div>
+            <img src="../Kaffen/images/coffee1.jpg" height="480px" width="362px">
+        </div>
+        <div class="coffee-container relative margin8 mb150">
+            <div class="coffee-contain absolute color-white d-flex align-items-center justify-content-center">
+                Cappuccino
+            </div>
+            <img src="../Kaffen/images/coffee2.jpg" height="480px" width="362px">
+        </div>
+        <div class="coffee-container relative margin8">
+            <div class="coffee-contain absolute color-white d-flex align-items-center justify-content-center">
+                Iced Coffee
+            </div>
+            <img src="../Kaffen/images/coffee3.jpg" height="480px" width="362px">
+        </div>
+    </div>
 
+    <!-- Coffee image over -->
 
+    <!-- Our clients -->
 
+    <div class="client d-flex flex-column pt130 pb100">
+        <span class="color-brown d-flex justify-content-center align-items-center"> CUSTOMER FEEDBACK </span>
+        <span class="color-white d-flex justify-content-center align-items-center font-oswald t-42 mt3"> What Our
+            Clients Say </span>
+        <div class="d-flex justify-content-center align-items-center mt40">
+            <fieldset class="feedback text-align bg-gray">
+                <legend><img src="../Kaffen/images/feedback1.jpg" height="70px" width="70px"
+                        style="border-radius: 50px;"></legend>
+                <i class="fa-solid fa-star color-brown"></i> <i class="fa-solid fa-star color-brown"></i> <i
+                    class="fa-solid fa-star color-brown"></i> <i class="fa-solid fa-star color-brown"></i> <i
+                    class="fa-solid fa-star color-brown pb"></i>
+                <div>
+                    <span class="fade-white lh-26 text-align pt50"> Sed ut perspiciatis unde omnis natus error luptatem
+                        accusantium doloremque laudantium totam remriam eaque quae abillo </span>
+                    <p class="color-white t-bold pt30 mb7"> Frederick S. France </p>
+                    <p class="color-brown"> Web Deigner </p>
+                </div>
+            </fieldset>
+            <fieldset class="feedback text-align bg-gray">
+                <legend><img src="../Kaffen/images/feedback2.jpg" height="70px" width="70px"
+                        style="border-radius: 50px;"></legend>
+                <i class="fa-solid fa-star color-brown"></i> <i class="fa-solid fa-star color-brown"></i> <i
+                    class="fa-solid fa-star color-brown"></i> <i class="fa-solid fa-star color-brown"></i> <i
+                    class="fa-solid fa-star color-brown pb"></i>
+                <div>
+                    <span class="fade-white lh-26 text-align pt50"> Sed ut perspiciatis unde omnis natus error luptatem
+                        accusantium doloremque laudantium totam remriam eaque quae abillo </span>
+                    <p class="color-white t-bold pt30 mb7"> James M. London </p>
+                    <p class="color-brown"> Lawyer </p>
+                </div>
+            </fieldset>
+            <fieldset class="feedback text-align bg-gray">
+                <legend><img src="../Kaffen/images/feedback3.jpg" height="70px" width="70px"
+                        style="border-radius: 50px;"></legend>
+                <i class="fa-solid fa-star color-brown"></i> <i class="fa-solid fa-star color-brown"></i> <i
+                    class="fa-solid fa-star color-brown"></i> <i class="fa-solid fa-star color-brown"></i> <i
+                    class="fa-solid fa-star color-brown pb"></i>
+                <div>
+                    <span class="fade-white lh-26 text-align pt50"> Sed ut perspiciatis unde omnis natus error luptatem
+                        accusantium doloremque laudantium totam remriam eaque quae abillo </span>
+                    <p class="color-white t-bold pt30 mb7"> Olivia D. New York </p>
+                    <p class="color-brown"> Dentist </p>
+                </div>
+            </fieldset>
+            <fieldset class="feedback text-align bg-gray">
+                <legend><img src="../Kaffen/images/feedback1.jpg" height="70px" width="70px"
+                        style="border-radius: 50px;"></legend>
+                <i class="fa-solid fa-star color-brown"></i> <i class="fa-solid fa-star color-brown"></i> <i
+                    class="fa-solid fa-star color-brown"></i> <i class="fa-solid fa-star color-brown"></i> <i
+                    class="fa-solid fa-star color-brown pb"></i>
+                <div>
+                    <span class="fade-white lh-26 text-align pt50"> Sed ut perspiciatis unde omnis natus error luptatem
+                        accusantium doloremque laudantium totam remriam eaque quae abillo </span>
+                    <p class="color-white t-bold pt30 mb7"> Frederick S. France </p>
+                    <p class="color-brown"> Web Deigner </p>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <!-- Our client over -->
+
+    <!-- Numbers -->
+
+    <div class="bg-gray d-flex justify-content-center align-items-center">
+        <div class="d-flex align-items-center mtop-bottom">
+            <p class="color-brown t-60 font-oswald-regular"> 256+ </p>
+            <div class="d-flex flex-column m-left20">
+                <span class="color-white font-oswald-regular t-24 mb7"> Premium clients </span>
+                <span class="fade-white"> Sed ut perspiciatis unde </span>
+            </div>
+        </div>
+        <div class="d-flex align-items-center mleft-right">
+            <p class="color-brown t-60 font-oswald-regular"> 362+ </p>
+            <div class="d-flex flex-column m-left20">
+                <span class="color-white font-oswald-regular t-24 mb7"> Expert Members </span>
+                <span class="fade-white"> Sed ut perspiciatis unde </span>
+            </div>
+        </div>
+        <div class="d-flex align-items-center">
+            <p class="color-brown t-60 font-oswald-regular"> 753+ </p>
+            <div class="d-flex flex-column m-left20">
+                <span class="color-white font-oswald-regular t-24 mb7"> Winning Awards </span>
+                <span class="fade-white"> Sed ut perspiciatis unde </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Numbers over -->
+
+    <!-- Blog & News -->
+
+    <div class="bg-dark pb130 d-flex align-items-center justify-content-center flex-column">
+        <div class="d-flex flex-column align-items-center">
+            <span class="color-brown t-16 mt100 mb7"> GET EVERY SINGLE UPDATE </span>
+            <span class="color-white t-42 font-oswald-regular mb70"> Read Some Latest Blog & News </span>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt6 mb30">
+            <div class="d-flex justify-content-center relative blog-content">
+                <img src="../Kaffen/images/blog1.jpg" height="415px" width="366px">
+                <div class="absolute b0">
+                    <p class="color-white font-oswald mb0 t-24"> SWR React Hooks With Next <br> Increm Intal Static
+                        Regeneration </p>
+                    <span class="fade-white t-bold"><i class="fa-regular fa-calendar-days mt6 mb30"></i> March 26, 2022
+                    </span> <span class="fade-white t-bold m-left20"><i class="fa-regular fa-comments"></i> Comments(0)
+                    </span>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center relative blog-content mlr25">
+                <img src="../Kaffen/images/blog2.jpg" height="415px" width="366px">
+                <div class="absolute b0">
+                    <p class="color-white font-oswald mb0 t-24"> Decision For Building Flexible <br> Components DevTools
+                        Browser </p>
+                    <span class="fade-white t-bold"><i class="fa-regular fa-calendar-days mt6 mb30"></i> March 26, 2022
+                    </span> <span class="fade-white t-bold m-left20"><i class="fa-regular fa-comments"></i> Comments(0)
+                    </span>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center relative  blog-content">
+                <img src="../Kaffen/images/blog3.jpg" height="415px" width="366px">
+                <div class="absolute b0">
+                    <p class="color-white font-oswald mb0 t-24"> SWR React Hooks With Next <br> Increm Intal Static
+                        Regeneration </p>
+                    <span class="fade-white t-bold"><i class="fa-regular fa-calendar-days mt6 mb30"></i> March 26, 2022
+                    </span> <span class="fade-white t-bold m-left20"><i class="fa-regular fa-comments"></i> Comments(0)
+                    </span>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <button class="btn mt7"> VIEW ALL <i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Blog & News over -->
+
+    <!-- Booking Table -->
+
+    <div class="book-table align-items-center d-flex justify-content-around ptop-bottom">
+        <div class="d-flex align-items-center justify-content-around" style=" min-width: 100%;">
+            <div class="d-flex flex-column" style="max-width: 50%;">
+                <span class="color-brown t-16"> BOOKING TABLE FOR YOUR & YOUR FAMILY MEMBERS </span>
+                <span class="t-42 color-white font-oswald"> Need a Table On Coffee House </span>
+            </div>
+            <div style="max-width: 50%;">
+                <button class="btn"> BOOKING TABLE <i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Table over -->
+
+    <!-- Footer -->
+
+    <div class="d-flex justify-content-center align-items-center bg-dark pt50 pb130">
+        <div class="d-flex justify-content-between align-items-center bg-dark">
+            <div class="d-flex flex-column">
+                <img class="pb30" src="../Kaffen/images/logo.png" height="45px" width="130px">
+                <p class="fade-white t-16 lh-26"> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit ut elit
+                    <br>
+                    tellus, luctus nec. </p>
+                <div class="pt20">
+                    <i class="fa-brands fa-facebook footer-icon color-light-black mx1 t-22"></i>
+                    <i class="fa-brands fa-square-instagram footer-icon color-light-black mx1 t-22"></i>
+                    <i class="fa-brands fa-square-twitter footer-icon color-light-black mx1 t-22"></i>
+                    <i class="fa-brands fa-square-youtube footer-icon color-light-black mx1 t-22"></i>
+                </div>
+            </div>
+
+            <div class="m-left70">
+                <h5 class="color-white font-oswald-regular t-24 pb30 pt50"> Working Hours </h5>
+                <ul>
+                    <li class="color-brown pb10"> Sunday - Thursday </li>
+                </ul>
+                <span class="color-white"> 8:00 am - 9:00 pm </span>
+                <ul>
+                    <li class="color-brown pt15 pb10"> Only Friday </li>
+                </ul>
+                <span class="color-white"> 3:00 am - 9:00 pm </span>
+                <ul>
+                    <li class="color-brown pt15 pb10"> Saturday </li>
+                </ul>
+                <span class="color-white"> Closed </span>
+            </div>
+            <div class="m-left70">
+                <h5 class="color-white font-oswald-regular t-24 ptop40"> Contact Us </h5>
+                <div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-location-dot color-brown t-24 pt15"></i>
+                        <div class="d-flex flex-column">
+                            <span class="color-brown m-left16 pt30 pb10"> Location : </span>
+                            <span class="color-white m-left16"> 55 Main Street , New York </span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-envelope-open-text color-brown t-22"></i>
+                        <div class="d-flex flex-column">
+                            <span class="color-brown m-left16 pb10 ptop-10"> Email Address : </span>
+                            <span class="color-white m-left16"> kaffendev@gmail.com </span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-phone color-brown t-22"></i>
+                        <div class="d-flex flex-column">
+                            <span class="color-brown m-left16 ptop-10"> Phone Number : </span>
+                            <span class="color-white m-left16 ptop-10"> +012 (345) 678 99 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-left70">
+                <h5 class="color-white font-oswald-regular t-24 pb38 ptop40"> Follow Instagram </h5>
+                <div class="follow-images">
+                    <div>
+                        <img class="finsta p11" src="../Kaffen/images/inst1.jpeg">
+                        <img class="finsta p11" src="../Kaffen/images/inst2.jpeg">
+                        <img class="finsta p11" src="../Kaffen/images/inst3.jpeg">
+                    </div>
+                    <div>
+                        <img class="finsta p11" src="../Kaffen/images/inst4.jpeg">
+                        <img class="finsta p11" src="../Kaffen/images/inst5.jpeg">
+                        <img class="finsta p11" src="../Kaffen/images/inst6.jpeg">
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <div class="pb38 bg-dark align-items-center justify-content-center d-flex">
+    <p class="fade-white t-16"> Copyright @ 2022 Kaffen. All Rights Reserved. </p>
+    </div>
+    <!-- Footer over -->
+
+    </div>
 </body>
 
 </html>
