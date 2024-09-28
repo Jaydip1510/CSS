@@ -1,0 +1,431 @@
+.main-container {
+    border-radius: 0;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 41px 80px 0 80px;
+  }
+  
+  .content-wrapper {
+    width: 100%;
+    max-width: 1319px;
+  }
+  
+  .flex-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .image-column {
+    width: 42%;
+  }
+  
+  .company-image {
+    object-fit: contain;
+    width: 400px;
+    border-radius: 0;
+  }
+  
+  .text-column {
+    width: 58%;
+  }
+  
+  .company-info {
+    display: flex;
+    flex-direction: column;
+    color: #3F4256;
+  }
+  
+  .company-title {
+    font: 500 40px/55px ;
+  }
+  
+  .company-description {
+    margin-top: 25px;
+    font: 400 20px;
+  }
+  
+  .highlight {
+    font-weight: 600;
+    color: #FFA30C;
+  }
+  
+  .cta-container {
+    display: flex;
+    gap: 7px;
+    margin: 36px 293px 0 0;
+    font: 500 18px Roboto, sans-serif;
+  }
+  
+  .cta-button {
+    border-radius: 10px;
+    padding: 13px 28px;
+    text-decoration: none;
+  }
+  
+  .primary {
+    background-color: #FFA30C;
+    color: #FFFFFF;
+  }
+  
+  .secondary {
+    color: #FFA30C;
+    border: 2px solid #FFA30C;
+  }
+  
+  
+
+  /* experience section */
+  .experience-container {
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 57px 80px 92px;
+    margin-top: 80px;
+  }
+  
+  .experience-content {
+    display: flex;
+    width: 100%;
+    max-width: 1090px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .experience-title {
+    font: 500 40px Poppins, sans-serif;
+    margin: 0;
+  }
+  
+  .experience-description {
+    margin-top: 8px;
+    font: 400 14px Roboto, sans-serif;
+  }
+  
+  .experience-image {
+    aspect-ratio: 7.35;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    align-self: stretch;
+    margin-top: 88px;
+  }
+  
+  /* what-how section starts */
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 80px;
+  }
+
+  .left-column, .right-column {
+    flex: 1;
+    max-width: 50%;
+    padding: 0 20px;
+  }
+
+  .image-container {
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+  }
+
+  .main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .section-indicator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #ffa500;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .section-title {
+    color: #4a90e2;
+    font-weight: 500;
+    font-size: 0.9em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin: 10px 0 20px;
+    color: #333;
+  }
+
+  .what-how-para{
+    line-height: 1.6;
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #666;
+  }
+
+  .highlight {
+    color: #ffa500;
+    font-weight: bold;
+  }
+
+  .how-section {
+    margin-top: 60px;
+  }
+
+  .how-section .left-column {
+    order: 1;
+  }
+
+  .how-section .right-column {
+    order: 2;
+  }
+/* Work Process Styles */
+.work-process-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.work-process-container h1 {
+    color: #4a90e2;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.work-process-container h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.process-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    position: relative;
+}
+.process-step {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 0 10px;
+    position: relative;
+}
+.process-icon {
+    font-size: 48px;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+.process-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.process-description {
+    font-size: 14px;
+    color: #666;
+}
+.process-number {
+    background-color: #4a90e2;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    z-index: 2;
+}
+.connector {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    right: 25%;
+    height: 50px;
+    z-index: -1;
+}
+.connector::before,
+.connector::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    border: 2px solid #4a90e2;
+    border-top: none;
+}
+.connector::before {
+    left: 0;
+    border-left: none;
+    border-radius: 0 0 100px 0;
+}
+.connector::after {
+    right: 0;
+    border-right: none;
+    border-radius: 0 0 0 100px;
+}
+.bottom-section {
+    position: relative;
+    height: 60px;
+    margin-top: 40px;
+}
+.bottom-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #ffd700;
+}
+
+.yellow-connector {
+    position: absolute;
+    bottom: -100px;
+    width: 2px;
+    height: 120px;
+    background-color: #ffd700;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+  /* achievements start */
+
+  .success-stories {
+    max-width: 1297px;
+    margin: 0 75px;
+    padding: 20px;
+  }
+  
+  .achievement-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+  }
+  
+  .achieve-content {
+    text-align:left;
+  }
+  
+  .success-label {
+    color: #FFA30C;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .achievement-title {
+    color: #080501;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .achivement-images {
+    display: flex;
+    gap: 21px;
+  }
+  
+  .achieve-image {
+    width: 64px;
+    height: 64px;
+    border-radius: 30px;
+    object-fit: contain;
+  }
+  
+  .achievement-content{
+    padding:30px;
+  }
+  .achievements {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .achievement-card {
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .achievement-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .achievement-title {
+    color: #292F3B;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .achievement-description {
+    color: #878787;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+  .explore-link {
+    color: #FFA30C;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  
+  .just-logo {
+    display: block;
+    width: 93px;
+    margin: 40px auto 0;
+  }
+  /* footer starts  */
+
+  .footer-layout{
+    padding: 0 100px;
+  }
+
+
+  
+  
+
+  
+  
