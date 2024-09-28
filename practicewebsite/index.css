@@ -266,3 +266,115 @@ button {
     transition: all 0.3s ease-in-out;
     color: #717784;
   }
+
+  .dropdown-link:hover {
+    background-color: #f5f7fa;
+    color: #2b303b;
+  }
+  
+  .dropdown-link a {
+    color: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .header-burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    padding: 4px;
+  }
+  
+  .burger-line {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 9999px;
+    transition: all 0.3s;
+  }
+  
+  .header-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 5;
+    background-color: rgba(33, 33, 33, 0.9);
+    transition: opacity 0.3s;
+  }
+  
+  .hero_home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero_home-layout {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero_home-left {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    max-width: 720px;
+  }
+  
+  .hero_home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .label-tag {
+    display: flex;
+    height: 34px;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 6px;
+    background: #fbfcfe;
+    color: #3c6bc3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: 'Roboto';
+  }
+  
+  .tag-text {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 21.09px;
+    color: rgba(59, 118, 229, 1);
+  }
+  
+  .banner-title {
+    align-self: stretch;
+    color: var(--Neutrals-900, #181b25);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -0.56px;
+  }
+  
+  .banner-title span {
+    color: #FFA30C;
+  }
