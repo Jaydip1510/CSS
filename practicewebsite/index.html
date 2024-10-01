@@ -9,14 +9,14 @@
         content="Welcome to GIPL, your leading IT solutions provider. We specialize in bespoke software solutions tailored to your needs. Discover our services and expertise." />
     <meta name="keywords" content="IT solutions, software development, GIPL, IT services, technology solutions" />
 
-    <!--Links-->
-    <link rel="icon" href="./assets/images/favicon.png" type="images/x-icon">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="index.css">
+    <!-- links -->
+
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" type="text/css" href="./slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
-
     <style type="text/css">
         html,
         body {
@@ -60,92 +60,1157 @@
             opacity: 1;
         }
     </style>
+
+
+
+    <!-- <style type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .sliderfirst {
+            width: 50%;
+            margin: 100px auto;
+        }
+
+        .slick-slide {
+            margin: 0px 20px;
+        }
+
+        .slick-slide img {
+            width: 100%;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: black;
+        }
+
+
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .2;
+        }
+
+        .slick-active {
+            opacity: .5;
+        }
+
+        .slick-current {
+            opacity: 1;
+        }
+    </style> -->
+
+    <!-- <style>
+        .custom-arrow-left {
+            position: absolute;
+            left: -50px;
+        }
+
+        .custom-arrow-right {
+            position: absolute;
+            right: -50px;
+        }
+    </style> -->
+
 </head>
 
 
 <body>
-         <div class="main">
-            <!--Navbar Start-->
-            <nav class="header">
-                <div class="global-container">
-                    <div class="navbar-section">
-                        <div class="logo-wrapper">
-                            <img src="./assets/images/gipl-logo-main.png" alt="logo" />
-                        </div>
-    
-                        <div class="main-navlink-wrap hidden">
-                            <div class="nav-link">
-                                <a href="index.html">HOME</a>
-                            </div>
-                            <div class="nav-link dropdown">
-                                <a href="about-us.html">ABOUT</a>
-                                <div class="dropdown-content">
-                                    <div class="dropdown-link">
-                                        <a href="about-us.html">About GIPL</a>
-                                    </div>
-                                    <div class="dropdown-link">
-                                        <a href="#">Our Mission & Vision</a>
-                                    </div>
-                                    <div class="dropdown-link">
-                                        <a href="#">Service Legal Agreement</a>
-                                    </div>
-                                    <div class="dropdown-link">
-                                        <a href="#">ISMA Policy</a>
-                                    </div>
-                                    <div class="dropdown-link">
-                                        <a href="#">Key Managerial Personnel</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="nav-link">
-                                <a href="#">SERVICES</a>
-                            </div>
-                            <div class="nav-link">
-                                <a href="#">PORTFOLIO </a>
-                            </div>
-                            <div class="nav-link">
-                                <a href="#">TENDERS</a>
-                            </div>
-                            <div class="nav-link">
-                                <a href="#">CAREER</a>
-                            </div>
-                            <div class="nav-link dropdown">
-                                <a href="about-us.html">GALLERY</a>
-                                <div class="dropdown-content">
-                                    <div class="dropdown-link">
-                                        <a href="about-us.html">About GIPL</a>
-                                    </div>
-                                    <div class="dropdown-link">
-                                        <a href="#">Our Mission & Vision</a>
-                                    </div>
-                                    <div class="dropdown-link">
-                                        <a href="#">Service Legal Agreement</a>
-                                    </div>
-                                    <div class="dropdown-link">
-                                        <a href="#">ISMA Policy</a>
-                                    </div>
-                                    <div class="dropdown-link">
-                                        <a href="#">Key Managerial Personnel</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="nav-link">
-                                <a href="#">CONTACT</a>
-                            </div>
-                        </div>
-                        <div class="nav-button hidden">
-                            <a href="#" class="primary-btn">Newsletter</a>
-                        </div>
-    
-                        <button class="header-burger" onclick="toggleMenu()">
-                            <span class="burger-line"></span>
-                            <span class="burger-line"></span>
-                            <span class="burger-line"></span>
-                        </button>
+
+    <div class="main">
+
+        <!-- Navbar -->
+
+        <nav class="header">
+            <div class="global-container">
+                <div class="navbar-section">
+                    <div class="logo-wrapper">
+                        <img src="./assets/images/gipl-logo-main.png" alt="logo" />
                     </div>
-                    <div class="header-overlay hidden"></div>
+
+                    <div class="main-navlink-wrap hidden">
+                        <div class="nav-link">
+                            <a href="index.html">HOME</a>
+                        </div>
+                        <div class="nav-link dropdown">
+                            <a href="about-us.html">ABOUT</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-link">
+                                    <a href="about-us.html">About GIPL</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">Our Mission & Vision</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">Service Legal Agreement</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">ISMA Policy</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">Key Managerial Personnel</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">SERVICES</a>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">PORTFOLIO </a>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">TENDERS</a>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">CAREER</a>
+                        </div>
+                        <div class="nav-link dropdown">
+                            <a href="about-us.html">GALLERY</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-link">
+                                    <a href="about-us.html">About GIPL</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">Our Mission & Vision</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">Service Legal Agreement</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">ISMA Policy</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">Key Managerial Personnel</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">CONTACT</a>
+                        </div>
+                    </div>
+                    <div class="nav-button hidden">
+                        <a href="#" class="primary-btn">Newsletter</a>
+                    </div>
+
+                    <button class="header-burger" onclick="toggleMenu()">
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                    </button>
                 </div>
-            </nav>
-         </div>
+                <div class="header-overlay hidden"></div>
+            </div>
+        </nav>
+
+        <!-- <nav class="header padding-x" style="font-family: Roboto;">
+            <div class="global-container">
+                <div class="navbar-section">
+                    <div class="logo-wrapper">
+                        <img src="./assets/images/gipl-logo-main.png" alt="logo" />
+                    </div>
+
+                    <div class="main-navlink-wrap hidden">
+                        <div class="nav-link">
+                            <a href="index.html">HOME</a>
+                        </div>
+                        <div class="nav-link dropdown">
+                            <a href="about-us.html">ABOUT</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-link">
+                                    <a href="about-us.html">About GIPL</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">Our Mission & Vision</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">Service Legal Agreement</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">ISMA Policy</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">Key Managerial Personnel</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">SERVICES</a>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">PORTFOLIO</a>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">TENDERS</a>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">CAREER</a>
+                        </div>
+                        <div class="nav-link dropdown">
+                            <a href="about-us.html">GALLERY</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-link">
+                                    <a href="about-us.html">GIPL Photos</a>
+                                </div>
+                                <div class="dropdown-link">
+                                    <a href="#">Vision Photos</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">CONTACT</a>
+                        </div>
+                    </div>
+                    <div class="nav-button hidden">
+                        <a href="#" class="primary-btn">Newsletter</a>
+                    </div>
+
+                    <button class="header-burger" onclick="toggleMenu()">
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                    </button>
+                </div>
+                <div class="header-overlay hidden"></div>
+            </div>
+        </nav> -->
+
+        <!-- Content - 1 -->
+
+        <div class="relative-container">
+            <div class="absolute-container">
+                <div class="row">
+                    <!-- First row: YouTube logo -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+                        alt="YouTube Logo" class="youtube-logo">
+                </div>
+
+                <!-- Second row: Welcome text with colored "YouTube" -->
+                <div class="row" style="letter-spacing: 1px; font-family: InriaSerif-bold; ">
+                    <p>Welcome to our Creative <span class="highlight">YouTube</span> <br> experience zone</p>
+                </div>
+
+                <!-- Third row: A better experience text -->
+                <div class="row" style="font-family: Poppins-Bold;">
+                    <p>A better experience of YouTube videos</p>
+                </div>
+
+                <!-- Fourth row: Two buttons -->
+                <div class="row button-container">
+                    <button class="btn btn-primary" style="font-family: Inter;">Start Now</button> &nbsp;
+                    <button class="btn btn-outline" style="font-family: Inter;">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content - 2 -->
+
+
+
+
+
+
+        <div class="video-slider-container"
+            style="display: flex; justify-content: space-between; align-items: center; height: 470px;"
+            id="sliderContent">
+
+            <iframe width="560" height="250" src="https://www.youtube.com/embed/HGSR3FDVkkQ?si=6fdWuXWo7jUOWK1Z"
+                id="firstsfirsti" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div class="youtube-video-container" id="video-container">
+                <iframe width="560" height="315" id="secondVideo"
+                    style="border-radius: 20px; border: 2px solid darkorange; padding: 20px;"
+                    src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <iframe width="560" height="250" src="https://www.youtube.com/embed/GvbI9hJLaVs?si=Ir8i7sfn7xa2Lwq2"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div style="display: flex; justify-content: center; height: 50px;">
+            <button id="leftArrow" onclick="firstslider()"
+                style="width: 35px; height: 35px; border-radius: 50%; border: none; background-color: rgb(38, 38, 38); color: rgb(186, 186, 186); font-size: 20px; cursor: pointer;">←</button>&nbsp;
+            &nbsp;&nbsp;
+            <button id="rightArrow"
+                style="width: 35px; height: 35px; border-radius: 50%; border: none; background-color: rgb(38, 38, 38); color: rgb(186, 186, 186);; font-size: 20px; cursor: pointer;">→</button>&nbsp;
+            &nbsp;&nbsp;
+        </div>
+
+
+
+        <!-- <section class="center slider">
+            <div>
+                <img src="http://placehold.it/350x300?text=1">
+            </div>
+            <div>
+                <img src="http://placehold.it/350x300?text=2">
+            </div>
+            <div>
+                <img src="http://placehold.it/350x300?text=3">
+            </div>
+            <div>
+                <img src="http://placehold.it/350x300?text=4">
+            </div>
+            <div>
+                <img src="http://placehold.it/350x300?text=5">
+            </div>
+            <div>
+                <img src="http://placehold.it/350x300?text=6">
+            </div>
+            <div>
+                <img src="http://placehold.it/350x300?text=7">
+            </div>
+            <div>
+                <img src="http://placehold.it/350x300?text=8">
+            </div>
+            <div>
+                <img src="http://placehold.it/350x300?text=9">
+            </div>
+        </section> -->
+
+
+        <!--gallery-->
+        <!-- <div class="gallery-wrapper">
+            <div class="content">
+                <div class="gallery full">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="https://images.pexels.com/photos/3663038/pexels-photo-3663038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"  style="width: 400px; height: 300px;"
+                                        alt="" />
+                                </div>
+
+                                
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="https://images.pexels.com/photos/3551207/pexels-photo-3551207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width: 400px; height: 300px;"
+                                        alt="" />
+                                </div>
+
+                                
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="https://images.pexels.com/photos/3375493/pexels-photo-3375493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width: 400px; height: 300px;"
+                                        alt="" />
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-next-button">
+                        <em class="material-icons">Next</em>
+                    </div>
+                    <div class="swiper-prev-button">
+                        <em class="material-icons">Previous</em>
+                    </div>
+                </div>
+
+                <div class="gallery thumb">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="https://images.pexels.com/photos/3663038/pexels-photo-3663038.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                        alt="" />
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="https://images.pexels.com/photos/3551207/pexels-photo-3551207.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                        alt="" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="https://images.pexels.com/photos/3375493/pexels-photo-3375493.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                        alt="" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-next-button">
+                        <em class="material-icons">arrow_right_alt</em>
+                    </div>
+                    <div class="swiper-prev-button">
+                        <em class="material-icons">arrow_right_alt</em>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <!-- <div class="slider-container" style="height: 700px;">
+            <div class="slider-content">
+                <iframe class="video-frame" id="video1" src="https://www.youtube.com/embed/bRrIhgn52m0"
+                    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video-frame" id="video2" src="https://www.youtube.com/embed/RR2EI8EEOOw"
+                    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video-frame" id="video3" src="https://www.youtube.com/embed/lTTajzrSkCw"
+                    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="slider-arrows"
+                style="width: 200px; height: 60px; display: flex; justify-content: space-around;">
+                <div
+                    style="height: 50px; width: 50px; background-color: rgb(132, 132, 132); border-radius: 100%; display: flex; justify-content: center; align-items: center;">
+                    <button class="arrow" id="prevSlide">&#10094;</button>
+                </div>
+                <div
+                    style="height: 50px; width: 50px; background-color: rgb(146, 146, 146); border-radius: 100%; display: flex; justify-content: center; align-items: center;">
+                    <button class="arrow" id="nextSlide">&#10095;</button>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- <section class="regular sliderfirst">
+            <div>
+                <iframe width="280" height="240" src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe width="280" height="240" src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe width="280" height="240" src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe width="280" height="240" src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe width="280" height="240" src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe width="280" height="240" src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+              
+        </section> -->
+
+
+        <!-- Content - 3 -->
+
+        <div class="cont-3">
+
+            <div class="cont-3"
+                style="font-weight: bold; color: rgb(197, 197, 197); text-align: center; letter-spacing: 67px; font-size: 120px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                PLAYLISTS
+            </div>
+
+        </div>
+
+
+        <!-- Content - 4 -->
+
+
+        <div class="container" data-theme='dark'
+            style="height: 600px; display: flex; justify-content: center; align-items: center;">
+            <div class="component-header">
+                <button title="See Preview and Code" id="redirectTo"></button>
+            </div>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide"><iframe width="560" height="250" id="mainsiframe"
+                            src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="slide"><iframe width="560" height="250" id="mainsiframe"
+                            src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="slide"><iframe width="560" height="250" id="mainsiframe"
+                            src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="slide"><iframe width="560" height="250" id="mainsiframe"
+                            src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="slide"><iframe width="560" height="250" id="mainsiframe"
+                            src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="slide"><iframe width="560" height="250" id="mainsiframe"
+                            src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="slide"><iframe width="560" height="250" id="mainsiframe"
+                            src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+                </div> <br>
+                <div class="slider-buttons">
+                    <button id="prev-slide" aria-label="Previous Slide" title="Go To Previous Slide"></button>
+                    <button id="nxt-slide" aria-label="Next Slide" title="Go To Next Slide"></button>
+                </div>
+            </div>
+            <div class="themes"></div>
+        </div>
+
+        <!-- Content - 5 -->
+
+        <div class="cont-5">
+
+            <div class="cont-3"
+                style="font-weight: bold; font-family: Poppins; padding-bottom: 100px; color: rgb(197, 197, 197); text-align: center; letter-spacing: 67px; font-size: 120px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                WATCHLISTS
+            </div>
+
+        </div>
+
+        <!-- watchlist slider -->
+
+        <div class="menu" style="height: 800px;">
+            <div class="menu--wrapper" style="display: flex;">
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250"
+                            src="https://www.youtube.com/embed/SF3KKh1hPaE?si=PHVZ-BInj4MguK0N"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </figure>
+                </div> &nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/example1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250"
+                            src="https://www.youtube.com/embed/dvNPmNtznpw?si=DThhqDarQuSuIxWJ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250"
+                            src="https://www.youtube.com/embed/VtGsszU0kLs?si=rZqbM92lqPWCx-RG"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+            </div>
+            <div class="menu--wrapper" style="display: flex;">
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250"
+                            src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/RR2EI8EEOOw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/lTTajzrSkCw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/example1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/example2"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/example3"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+            </div>
+            <div class="menu--wrapper" style="display: flex;">
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250"
+                            src="https://www.youtube.com/embed/bRrIhgn52m0?si=GoAxIIb6DZEi55Cl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/RR2EI8EEOOw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/lTTajzrSkCw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/example1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/example2"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+                <div class="menu--item">
+                    <figure>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/example3"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </figure>
+                </div>&nbsp; &nbsp; &nbsp;
+
+            </div>
+        </div>
+
+        <!-- <div class="carousel-container" id="carousel" style="background-color: blue;">
+            <div class="carousel" style="background-color: aqua;">
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" class="iframe2" title="YouTube Video 1"
+                    frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 2" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 3" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 4" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 5" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 6" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 7" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 8" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 9" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 10" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 11" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 12" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 13" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 14" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 15" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 16" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 17" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 18" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 19" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 20" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 21" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 22" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 23" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 24" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 25" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 26" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 27" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 28" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 29" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 30" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 31" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 32" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 33" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 34" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 35" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 36" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 37" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 38" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 39" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bRrIhgn52m0" title="YouTube Video 40" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+        </div> -->
+        <!-- Content - 6 -->
+
+        <!-- <div class="image-carousel-container" id="imageCarousel" style="background-color: blue;">
+            <div class="image-carousel" style="background-color: aqua;">
+                <img src="https://via.placeholder.com/370x250.png?text=Image+1" alt="Image 1" />
+                <img src="https://via.placeholder.com/370x250.png?text=Image+2" alt="Image 2" />
+                <img src="https://via.placeholder.com/370x250.png?text=Image+3" alt="Image 3" />
+                <img src="https://via.placeholder.com/370x250.png?text=Image+4" alt="Image 4" />
+                <img src="https://via.placeholder.com/370x250.png?text=Image+5" alt="Image 5" />
+                <img src="https://via.placeholder.com/370x250.png?text=Image+6" alt="Image 6" />
+            </div>
+        </div> -->
+
+        <div class="cont-5">
+
+            <div class="cont-3"
+                style="font-weight: bold; font-family: Poppins; padding-bottom: 100px; color: rgb(197, 197, 197); text-align: center; letter-spacing: 67px; font-size: 120px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                FOR YOU
+            </div>
+
+        </div>
+
+        <!-- Content - 7 -->
+
+        <div class="cont-7" style="height: 380px;">
+            <div style="display: flex; height: 350px; justify-content: center; padding-bottom: 0;">
+                <div>
+                    <iframe width="360" height="300" src="https://www.youtube.com/embed/GvbI9hJLaVs?si=Ir8i7sfn7xa2Lwq2"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>&nbsp;&nbsp;
+                </div>
+                <div><iframe width="360" height="300"
+                        src="https://www.youtube.com/embed/RR2EI8EEOOw?si=WELPeeWM-JXoNABS" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>&nbsp;&nbsp;</div>
+                <div>
+                    <iframe width="360" height="300" src="https://www.youtube.com/embed/lxvKgxw-P-4?si=_TC4849Ga1UW-pjs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>&nbsp;&nbsp;
+
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <div style="padding: 0 110px; cursor: pointer; font-family: Inter; color: rgb(150, 150, 150);">View Full
+                    Playlist</div>
+                <div style="padding: 0 110px; cursor: pointer; font-family: Inter; color: rgb(150, 150, 150);">View Full
+                    Playlist</div>
+                <div style="padding: 0 110px; cursor: pointer; font-family: Inter; color: rgb(150, 150, 150);">View Full
+                    Playlist</div>
+            </div>
+            <div></div>
+        </div>
+
+        <!-- Content - 8 -->
+
+        <div class="content-8" style="display: flex; justify-content: center;">
+            <div class="c7-box" style="width: 70%; height: 1000px;">
+                <div class="pics-gallery" style="height: 170px; margin-top: 50px;">
+                    <div class="cont-3"
+                        style="font-weight: bold; font-family: Poppins; padding-bottom: 100px; color: rgb(197, 197, 197); text-align: center; letter-spacing: 37px; font-size: 120px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                        PICS GALLERY
+                    </div>
+                </div>
+                <div class="pics" style="width: fit-content; width: 100%;">
+                    <div style="display: flex;">
+                        <img src="/assets/images/netwroking.png" style="width: 335.5px; height: 225px; padding: 5px;"
+                            alt="">
+                        <img src="/assets/images/web-casting.png" style="width: 335.5px; height: 225px; padding: 5px;"
+                            alt="">
+                        <img src="/assets/images/software-development.png"
+                            style="width: 335.5px; height: 225px; padding: 5px;" alt="">
+                        <img src="/assets/images/IT-consultancy.png"
+                            style="width: 335.5px; height: 225px; padding: 5px;" alt="">
+                    </div>
+                    <div style="display: flex;">
+                        <img src="/assets/images/software-development.png"
+                            style="width: 335.5px; height: 225px; padding: 5px;" alt="">
+                        <img src="/assets/images/galaxxy-img.png" style="width: 335.5px; height: 225px; padding: 5px;"
+                            alt="">
+                        <img src="/assets/images/image.png" style="width: 335.5px; height: 225px; padding: 5px;" alt="">
+                        <img src="/assets/images/web-hosting.png" style="width: 335.5px; height: 225px; padding: 5px;"
+                            alt="">
+                    </div>
+                    <div style="display: flex;">
+                        <img src="/assets/images/web-casting.png" style="width: 335.5px; height: 225px; padding: 5px;"
+                            alt="">
+                        <img src="/assets/images/IT-consultancy.png"
+                            style="width: 335.5px; height: 225px; padding: 5px;" alt="">
+                        <img src="/assets/images/netwroking.png" style="width: 335.5px; height: 225px; padding: 5px;"
+                            alt="">
+                        <img src="/assets/images/software-development.png"
+                            style="width: 335.5px; height: 225px; padding: 5px;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="global-container">
+                    <div class="footer-layout">
+                        <!-- Footer Menu Links -->
+                        <div class="footer-menu">
+                            <a href="#" class="footer-menu-link">
+                                <p class="footer-menu-link-text" style="color: rgb(131, 131, 131);">Home</p>
+                            </a>
+                            <a href="#" class="footer-menu-link">
+                                <p class="footer-menu-link-text" style="color: rgb(131, 131, 131);">Careers</p>
+                            </a>
+                            <a href="#" class="footer-menu-link">
+                                <p class="footer-menu-link-text" style="color: rgb(131, 131, 131);">About GIPL</p>
+                            </a>
+                            <a href="#" class="footer-menu-link">
+                                <p class="footer-menu-link-text" style="color: rgb(131, 131, 131);">Contact</p>
+                            </a>
+                            <a href="#" class="footer-menu-link">
+                                <p class="footer-menu-link-text" style="color: rgb(131, 131, 131);">Terms of Use</p>
+                            </a>
+                            <a href="#" class="footer-menu-link">
+                                <p class="footer-menu-link-text" style="color: rgb(131, 131, 131);">ISMS Policy</p>
+                            </a>
+                            <a class="footer-menu-link">
+                                <p class="footer-menu-link-text" style="color: rgb(131, 131, 131);">Privacy Policy</p>
+                            </a>
+                            <a href="#" class="footer-menu-link">
+                                <p class="footer-menu-link-text" style="color: rgb(131, 131, 131);">Mobile Privacy Policy</p>
+                            </a>
+                        </div>
+
+                        <!-- Footer Main Section -->
+                        <div class="footer-main">
+                            <div class="footer-main-right">
+                                <div class="footer-right-logo">
+                                    <img class="footer-right-logo-img" src="./assets/images/gipl-logo-main.png"
+                                        alt="GIPL Logo" />
+                                </div>
+                                <div class="footer-right-content">
+                                    <p class="footer-right-content-text">
+                                        2nd Floor, Block-15, Udhyog Bhavan, Sector-11, Gandhinagar –
+                                        382011.
+                                    </p>
+                                </div>
+                                <div class="footer-right-social">
+                                    <a href="#" class="footer-right-social-icon">
+                                        <img src="./assets/icons/emailicon.svg" alt="Email Icon"
+                                            class="footer-right-social-icon-img" />
+                                    </a>
+                                    <a href="#" class="footer-right-social-icon">
+                                        <img src="./assets/icons/linkedinicon.svg" alt="Linkedin Icon"
+                                            class="footer-right-social-icon-img" />
+                                    </a>
+                                    <a href="#" class="footer-right-social-icon">
+                                        <img src="./assets/icons/twittericon.svg" alt="Twitter Icon"
+                                            class="footer-right-social-icon-img" />
+                                    </a>
+                                    <a href="#" class="footer-right-social-icon">
+                                        <img src="./assets/icons/facebookicon.svg" alt="Facebook Icon"
+                                            class="footer-right-social-icon-img" />
+                                    </a>
+                                    <a href="#" class="footer-right-social-icon">
+                                        <img src="./assets/icons/phoneicon.svg" alt="Phone Icon"
+                                            class="footer-right-social-icon-img" />
+                                    </a>
+                                    <a href="#" class="footer-right-social-icon">
+                                        <img src="./assets/icons/phoneicon2.svg" alt="Phone Icon 2"
+                                            class="footer-right-social-icon-img" />
+                                    </a>
+                                    <a href="#" class="footer-right-social-icon">
+                                        <img src="./assets/icons/youtubeicon.svg" alt="YouTube Icon"
+                                            class="footer-right-social-icon-img" />
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Footer Left Menu Section -->
+                            <div class="footer-main-left">
+                                <div class="footer-left-menu">
+                                    <p class="footer-left-menu-text">Web Design</p>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            Web Application Design
+                                        </p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            Open Source Theme Design
+                                        </p>
+                                    </a>
+                                    <a class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            PSD to HTML Conversion
+                                        </p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">Website Design</p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">Integrations</p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">Pricing</p>
+                                    </a>
+                                </div>
+
+                                <div class="footer-left-menu">
+                                    <p class="footer-left-menu-text">Web Development</p>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            ASP Net Application Development
+                                        </p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            eCommerce Development
+                                        </p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            Database Application
+                                        </p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">Mobile Application</p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            Software Development
+                                        </p>
+                                    </a>
+                                </div>
+
+                                <div class="footer-left-menu">
+                                    <p class="footer-left-menu-text">Web Hosting</p>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            REC Mountable Server with ECC
+                                        </p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            Dedicated Data Pipe
+                                        </p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            Comprehensive Power Backup
+                                        </p>
+                                    </a>
+                                    <a href="#" class="footer-left-menu-link">
+                                        <p class="footer-left-menu-link-text">
+                                            Temperature Controlled
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Footer Copyright -->
+                        <div class="footer-copyright">
+                            <p class="footer-copyright-text">
+                                © Copyrights 2024 GIPL - An ISO 27001:2013, ISO 9001:2015
+                                Certified Company. All rights reserved.
+                            </p>
+                            <p class="footer-copyright-text">
+                                <a href="https://www.gipl.in/" target="_blank">Developed by
+                                    <span class="footer-copyright-text-span">Guj Info Petro Limited</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@6.0.2/swiper-bundle.min.js"></script>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).on('ready', function () {
+            $(".vertical-center-4").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+                slidesToShow: 4,
+                slidesToScroll: 2
+            });
+            $(".vertical-center-3").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+            $(".vertical-center-2").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+                slidesToShow: 2,
+                slidesToScroll: 2
+            });
+            $(".vertical-center").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+            });
+            $(".vertical").slick({
+                dots: true,
+                vertical: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+            $(".regular").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+            $(".center").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 5,
+                slidesToScroll: 3
+            });
+            $(".variable").slick({
+                dots: true,
+                infinite: true,
+                variableWidth: true
+            });
+            $(".lazy").slick({
+                lazyLoad: 'ondemand', // ondemand progressive anticipated
+                infinite: true
+            });
+        });
+    </script> -->
+
+    <script src="index.js"></script>
+
+
+
+
 </body>
+
+
+
 </html>
