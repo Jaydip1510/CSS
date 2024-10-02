@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .t1 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .t2 {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .num,
+        .e1,
+        .add,
+        .add1 {
+            font-size: 1rem;
+        }
+
+        .ul1 li {
+            list-style: none;
+        }
+
+        .s2,
+        .se,
+        .mp {
+            font-size: 1rem;
+        }
+
+        .mp ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .mp a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .mp a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .col-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .t1 {
+                font-size: 1.5rem;
+            }
+
+            .t2 {
+                font-size: 1rem;
+            }
+
+            .num,
+            .e1,
+            .add,
+            .add1 {
+                font-size: 0.9rem;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .fa-phone-volume, .fa-envelope, .fa-location-dot {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .num,
+            .e1,
+            .add,
+            .add1 {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="t1">JAYDIP MAKWANA</h1>
+                    <h4 class="t2">FULLSTACK DEVELOPER</h4>
+                </div>
+                <div class="col-md-6 text-md-end text-start">
+                    <i class="fa-solid fa-phone-volume me-2"></i>
+                    <span class="num">9106853634</span><br>
+                    <i class="fa-regular fa-envelope me-2"></i>
+                    <span class="e1">jaydipmakwana1510@gmail.com</span><br>
+                    <i class="fa-solid fa-location-dot me-2"></i>
+                    <span class="add">10,Vandematram Township</span><br>
+                    <span class="add1">Gota, Ahmedabad</span>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="s1"><u>SUMMARY</u></h5>
+                    <span class="s2">My name is Jaydip Makwana. I have got training of Full Stack Development. I have
+                        developed websites like service-based websites, E-commerce websites and more. I am an extrovert and enjoy working in teams.</span>
+                    <hr>
+                    <h5><u>EDUCATION</u></h5>
+                    <span><b>Bachelor of Computer Application (BCA)</b></span><br>
+                    <span>Saurashtra University (2015-2017)</span><br><br>
+                    <span><b>H.S.C</b></span><br>
+                    <span>Shree Government Higher Secondary School Panshina (2014)</span><br><br>
+                    <span><b>S.S.C</b></span><br>
+                    <span>C.C. High School Panshina (2012)</span><br><br>
+                    <hr>
+                    <h5><u>SKILLS</u></h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="ul1">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>C LANGUAGE</li>
+                                <li>C++</li>
+                                <li>JQUERY</li>
+                                <li>TAILWIND_CSS</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="ul1">
+                                <li>JAVASCRIPT</li>
+                                <li>NODEJS</li>
+                                <li>REACTJS</li>
+                                <li>EXPRESSJS</li>
+                                <li>ES6</li>
+                                <li>BOOTSTRAP</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <h5><u>LANGUAGES</u></h5>
+                    <ul>
+                        <li>HINDI</li>
+                        <li>GUJARATI</li>
+                        <li>ENGLISH</li>
+                    </ul>
+                    <hr>
+                    <h5><u>WORK PORTFOLIO</u></h5>
+                    <i class="fa-brands fa-github mt-3"> : <a class="l1" href="https://github.com/Jaydip1510">https://github.com/Jaydip1510</a> </i><br>
+                    <i class="fa-brands fa-linkedin mt-3 mb-3"> : <a class="l1" href="http://www.linkedin.com/in/jaydip-makwana-a17729273">http://www.linkedin.com/in/jaydip-makwana-a17729273</a></i>
+                    <hr>
+                    <h5><u>WORK EXPERIENCE</u></h5>
+                    <span><b>Sales Executive</b></span><br>
+                    <span>Glaze Trading India Pvt. Ltd. (2018-2019)</span><br><br>
+                    <span><b>QC Operator</b></span><br>
+                    <span>ATE Enterprise Pvt. Ltd. (2020-2022)</span><br><br>
+                    <span><b>Internship (Web Developer)</b></span><br>
+                    <span>Sahana System Pvt. Ltd. (Jun-Aug. 2024)</span><br>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="mp"><u>MY PROJECTS</u></h5>
+                    <span><b><u>Kaffen Website</u></b></span>
+                    <ul class="mp">
+                        <li>Designed the Kaffen website using HTML, CSS.</li>
+                        <li>Made it responsive.</li>
+                        <li><a href="https://github.com/Jaydip1510/CSS/tree/main/CSS_FINALPROJECT">GitHub Link</a></li>
+                    </ul>
+                    <span><b><u>E-commerce Website (Clothes Shop)</u></b></span>
+                    <ul class="mp">
+                        <li>Designed & developed using HTML, CSS, BOOTSTRAP, JQUERY.</li>
+                        <li>Back-end work with JavaScript.</li>
+                        <li>CRUD operations for products, including add, delete, edit, and update.</li>
+                        <li>Implemented cart functionality for product purchases.</li>
+                        <li><a href="https://github.com/Jaydip1510/Java_Script/tree/main/my_website">GitHub Link</a></li>
+                    </ul>
+                    <span><b><u>Admin LTE (Node.js)</u></b></span>
+                    <ul class="mp">
+                        <li>Designed admin panel using HTML, CSS, BOOTSTRAP, JQUERYUI.</li>
+                        <li>Developed with Node.js and MongoDB.</li>
+                        <li>Features include category management, product administration, login/registration pages.</li>
+                        <li><a href="https://github.com/Jaydip1510/NodeJS/tree/main/adminpanel">GitHub Link</a></li>
+                    </ul>
+                    <span><b><u>Hotel Room Booking (ReactJs)</u></b></span>
+                    <ul class="mp">
+                        <li>Online platform for booking hotel rooms, comparing prices, and viewing amenities.</li>
+                        <li>Features booking confirmation, cancellations, and customer support.</li>
+                        <li><a href="https://github.com/Jaydip1510/React_JS/tree/main/my%20website">GitHub Link</a></li>
+                    </ul>
+                    <hr>
+                    <h5 class="mp"><u>CERTIFICATIONS</u></h5>
+                    <ul>
+                        <li>Full Stack Developer (2023-2024) - Red & White Multimedia Education</li>
+                        <li>Integrated Personality Development Course</li>
+                    </ul>
+                    <hr>
+                    <h5 class="mp"><u>AWARDS & EVENTS</u></h5>
+                    <span><b>Teknothon Event</b></span>
+                    <ul>
+                        <li>Participated in this event showcasing talent in website designing.</li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
