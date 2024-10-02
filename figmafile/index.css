@@ -1,0 +1,32 @@
+.logo h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #FF0000;
+}
+
+.search-bar input {
+    width: 300px;
+}
+
+.header-icons a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-icons a:hover {
+    color: #FF0000;
+}
+
+.nav-link {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bg-primary {
+    background-color: #242442 !important;
+}
+
+.bg-dark {
+    background-color: #1a1a33 !important;
+}
