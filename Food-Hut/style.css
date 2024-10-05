@@ -3,15 +3,7 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Unified background for header and section */
-.hero-section {
-    background-image: url('./img/BG-1.png');  /* Path to your background image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 40px 0;
-    min-height: 100vh;
-}
+
 
 .logo {
     font-size: 32px;
